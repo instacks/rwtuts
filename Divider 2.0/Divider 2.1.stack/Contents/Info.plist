@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.dividertwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.1</string>
+	<key>CFBundleVersion</key>
+	<string>2100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/divider/appcast.xml</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>Divider 2 - Copyright 2017 RWtuts</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>hr</string>
+			<key>group</key>
+			<string>Divider Type</string>
+			<key>id</key>
+			<string>divider</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Full Width</string>
+					<key>value</key>
+					<string>hr</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>50% Width</string>
+					<key>value</key>
+					<string>hr width="50%"</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Full Width Noshade</string>
+					<key>value</key>
+					<string>hr noshade</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>50% Width Noshade</string>
+					<key>value</key>
+					<string>hr noshade width=50%</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Divider Styles</string>
+			<key>toolTip</key>
+			<string>Customize the style of the divider.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>helpURL</key>
+	<string>http://www.rwtuts.net/stacks/detailspro</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Easily add some dividers between your Stacks.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Divider 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Divider</string>
+		<string>Line</string>
+		<string>Breaks</string>
+		<string>Horizontal</string>
+	</array>
+</dict>
+</plist>

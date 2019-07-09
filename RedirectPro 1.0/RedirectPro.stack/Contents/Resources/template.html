@@ -1,0 +1,30 @@
+<!-- RedirectPro Stack version 1.0
+	 Last changed: 10/10/17
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/redirectpro
+	 RWtuts Support: http://www.rwtuts.net/support
+-->
+
+%[if !edit]%
+
+<script>
+	window.setTimeout(function(){
+
+        // Redirect URL
+        window.location.href = "%id=rp_url%";
+
+    }, %id=rp_delay%);
+</script>
+
+%[endif]%
+
+
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<center><img src="%siteAssetPath%/preview.png" width="64" height="64" alt="RedirectPro Icon"/><p><b>RedirectPro by RWtuts</b></p></center>
+	%[endif]%
+
+<!-- End RedirectPro Stack by RWtuts --> 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.musicplayertwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>https://dl.dropboxusercontent.com/u/64179093/dMartin_-_Martin_Oakson-_Neverland_Original_Mix_.mp3</string>
+			<key>id</key>
+			<string>trackurl</string>
+			<key>title</key>
+			<string>Song URL</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<true/>
+			<key>falseValue</key>
+			<string></string>
+			<key>id</key>
+			<string>autoplay</string>
+			<key>title</key>
+			<string>Autoplay?</string>
+			<key>trueValue</key>
+			<string>autoplay</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<true/>
+			<key>falseValue</key>
+			<string></string>
+			<key>id</key>
+			<string>loop</string>
+			<key>title</key>
+			<string>Loop?</string>
+			<key>trueValue</key>
+			<string>loop</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Adds a lightweight and powerful HTML 5 audio player to your site.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>MusicPlayer 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Music</string>
+		<string>Player</string>
+		<string>Audio</string>
+		<string>HTML5</string>
+	</array>
+</dict>
+</plist>

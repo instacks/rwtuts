@@ -1,0 +1,31 @@
+<!-- Skype Button Stack version 2.0
+	 Last changed: 03/13/16
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/skype
+	 Marvin Niedt Support: http://www.rwtuts.net/support
+-->
+
+%[if !edit]%
+<script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+<div id="SkypeButton_Call_%id=profile_id%_1">
+  <script type="text/javascript">
+    Skype.ui({
+      "name": "%id=class%",
+      "element": "SkypeButton_Call_%id=profile_id%_1",
+      "participants": ["%id=profile_id%"],
+      /*"imageColor": "%id=color%",*/
+      "imageSize": %id=size%
+    });
+  </script>
+</div>
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>Skype Button 2</b></div>
+		<p><div id="%id%_title"><center>Configure this stack by using the given Settings Display / HUD on the right.<p>Enter the Skype Name of the profile you want to display. NOTE: Use the actual verified Skype name of that person, not just the Username - the Stack won't recognize it!</center></div>
+	%[endif]%
+
+<!-- End Skype Button Stack 2 by RWtuts -->

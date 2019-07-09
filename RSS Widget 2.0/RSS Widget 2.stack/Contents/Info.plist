@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.rsswidgettwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>http://www.rwtuts.net/blog/files/feed.xml</string>
+			<key>id</key>
+			<string>rss_url</string>
+			<key>title</key>
+			<string>RSS Feed URL</string>
+			<key>toolTip</key>
+			<string>Provide the Feed URL that shall be displayed. Valid RSS URL required.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>RWtuts News Feed</string>
+			<key>id</key>
+			<string>rss_title</string>
+			<key>title</key>
+			<string>RSS Title</string>
+			<key>toolTip</key>
+			<string>Enter a custom title for your news feed that appears on top of the widget.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>10</string>
+			<key>id</key>
+			<string>article_amount</string>
+			<key>title</key>
+			<string>Article Amount</string>
+			<key>toolTip</key>
+			<string>Define how many articles/items of the feed should be displayed.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>12</string>
+			<key>id</key>
+			<string>font_size</string>
+			<key>title</key>
+			<string>Text Size</string>
+			<key>toolTip</key>
+			<string>Define the text size of the feed widget. The unit is Pixels (px)</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>300</string>
+			<key>id</key>
+			<string>width</string>
+			<key>title</key>
+			<string>Widget Width</string>
+			<key>toolTip</key>
+			<string>Define the width of the feed widget. The unit is Pixels (px)</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>600</string>
+			<key>id</key>
+			<string>height</string>
+			<key>title</key>
+			<string>Widget Height</string>
+			<key>toolTip</key>
+			<string>Define the height of the feed widget. The unit is Pixels (px)</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>20</string>
+			<key>id</key>
+			<string>scroll_speed</string>
+			<key>title</key>
+			<string>Scroll Speed</string>
+			<key>toolTip</key>
+			<string>Define the scroll speed of the feed widget.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#0E4887</string>
+			<key>id</key>
+			<string>bg_color</string>
+			<key>title</key>
+			<string>Background Color</string>
+			<key>toolTip</key>
+			<string>Customize the background color of the feed widget.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FFFFFF</string>
+			<key>id</key>
+			<string>title_color</string>
+			<key>title</key>
+			<string>Title Color</string>
+			<key>toolTip</key>
+			<string>Customize the title color of the feed widget.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#c3dff2</string>
+			<key>id</key>
+			<string>bg_item</string>
+			<key>title</key>
+			<string>Item BG Color</string>
+			<key>toolTip</key>
+			<string>Customize the item background color of the feed widget.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#0E4887</string>
+			<key>id</key>
+			<string>bg_item_title</string>
+			<key>title</key>
+			<string>Item Title BG Color</string>
+			<key>toolTip</key>
+			<string>Customize the item title background color of the feed widget.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#0E4887</string>
+			<key>id</key>
+			<string>bg_description</string>
+			<key>title</key>
+			<string>Description BG Color</string>
+			<key>toolTip</key>
+			<string>Customize the description background color of the feed widget.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Easily add a lightweight RSS feed to your website.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>RSS Widget 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>RSS</string>
+		<string>News</string>
+		<string>xml</string>
+		<string>Widget</string>
+		<string>Feed</string>
+		<string>Aggregator</string>
+		<string>Atom</string>
+		<string>Reader</string>
+		<string>rwtuts</string>
+	</array>
+</dict>
+</plist>

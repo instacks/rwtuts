@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.smartrefreshtwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<integer>100</integer>
+			<key>id</key>
+			<string>seconds</string>
+			<key>max</key>
+			<integer>5000</integer>
+			<key>min</key>
+			<integer>1</integer>
+			<key>round</key>
+			<true/>
+			<key>title</key>
+			<string>Refreshes after</string>
+			<key>toolTip</key>
+			<string>Amount of seconds until the next site refresh.</string>
+			<key>type</key>
+			<string>number</string>
+			<key>units</key>
+			<string>s</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Add an automatic refresh feature to your site.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>SmartRefresh 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Smart</string>
+		<string>Refresh</string>
+		<string>SmartRefresh</string>
+		<string>Automatic</string>
+	</array>
+</dict>
+</plist>

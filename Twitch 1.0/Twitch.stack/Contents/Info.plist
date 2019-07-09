@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.twitch</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>id</key>
+			<string>username</string>
+			<key>title</key>
+			<string>Twitch User</string>
+			<key>toolTip</key>
+			<string>Enter the Streamer Username you'd like to embed</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>id</key>
+			<string>height</string>
+			<key>title</key>
+			<string>Player height</string>
+			<key>toolTip</key>
+			<string>Customize the Twitch Player height (in px)</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>id</key>
+			<string>width</string>
+			<key>title</key>
+			<string>Player width</string>
+			<key>toolTip</key>
+			<string>Customize the Twitch Player width (in px)</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>Marvin Niedt</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Embed a Twitch.tv Stream on your website.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Twitch</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<!-- TweetClick Stack version 2.0
+	 Last changed: 22/09/16
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/tweetclick
+	 RWtuts Support: http://www.rwtuts.net/support
+-->
+
+%[if !edit]%
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="%id=url%" data-via="%id=via%" data-lang="en" data-text="%id=text%" data-hashtags="%id=hashtags%" data-size="%id=size%">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>TweetClick 2 by RWtuts</b></center></div>
+		<p><div id="%id%_title"><center>Configure this Stack by using the given Settings Display / HUD on the right.<p><br>Tip: You can also leave the "Hashtags" and "Via" sections blank if you prefer.</center></div>
+	%[endif]%
+
+<!-- End TweetClick 2 Stack -->
+

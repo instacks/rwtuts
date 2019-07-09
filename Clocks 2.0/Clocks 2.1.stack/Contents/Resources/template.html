@@ -1,0 +1,50 @@
+<!-- Clocks Stack version 2.0
+	 Last changed: 09/08/15
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/clocks
+	 Marvin Niedt Support: http://www.rwtuts.net/support
+-->
+
+%[if !edit]%
+<style type="text/css" media="screen">
+	#clockbox {
+		width: auto; height: auto;
+		font-family: '%id=font%';
+		font-size: %id=fontsize%px;
+		color: %id=fontcolor%;
+	}
+</style>
+
+<script type="text/javascript">
+function GetClock(){
+var d=new Date();
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds(),ap;
+
+if(nhour==0){ap=" AM";nhour=12;}
+else if(nhour<12){ap=" AM";}
+else if(nhour==12){ap=" PM";}
+else if(nhour>12){ap=" PM";nhour-=12;}
+
+if(nmin<=9) nmin="0"+nmin;
+if(nsec<=9) nsec="0"+nsec;
+
+document.getElementById('clockbox').innerHTML=""+nhour+":"+nmin+":"+nsec+ap+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+<div id="clockbox"></div>
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>Clocks 2 by RWtuts</b></center></div>
+		<p><div id="%id%_title"><center><i>Configure this Stack by using the given settings display on the right</i></center></div></p></div>
+	%[endif]%
+	
+<!-- End Clocks 2 Stack by RWtuts -->

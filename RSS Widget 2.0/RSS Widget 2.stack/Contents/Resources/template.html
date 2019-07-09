@@ -1,0 +1,21 @@
+<!-- RSS Widget Stack version 2.0
+	 Last changed: 20/09/16
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/rsswidget
+	 RWtuts Support: http://www.rwtuts.net/support
+-->
+
+%[if !edit]%
+<script type="text/javascript">document.write('<script type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js"><' + '/script>');</script><script type="text/javascript">(function() {var params = {rssmikle_url: "%id=rss_url%",rssmikle_frame_width: "%id=width%",rssmikle_frame_height: "%id=height%",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "%id=font_size%",rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",text_align: "%id=align%",text_align2: "left",corner: "off",scrollbar: "on",autoscroll: "on",scrolldirection: "up",scrollstep: "3",mcspeed: "%id=scroll_speed%",sort: "New",rssmikle_title: "on",rssmikle_title_sentence: "%id=rss_title%",rssmikle_title_link: "",rssmikle_title_bgcolor: "%id=bg_color%",rssmikle_title_color: "%id=title_color%",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "%id=bg_item%",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "%id=bg_item_title%",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "%id=bg_description%",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M:%S %p",item_description_style: "text",item_thumbnail: "full",article_num: "%id=article_amount%",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script>
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>RSS Widget 2</b></center></div>
+		<p><div id="%id%_title"><center>Configure this stack by using the given Settings Display on the right. Please note that you need to provide a valid RSS Feed URL. These URLs usually have a .xml, .rss or /rss extension.<p>The RSS Widget 2 Stack is powered by FeedWind, a powerful RSS Feed provider.</center></div>
+	%[endif]%
+	
+<!-- End RSS Widget 2 Stack -->
+

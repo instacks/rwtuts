@@ -1,0 +1,22 @@
+<!-- VimeoWeaver Stack version 2.0 - Custom Javascript 
+	 Last changed: 09/11/15
+	 Stack Author: Marvin Niedt
+	 Stack Website and Info: http://rwtuts.net/stacks/vimeoweaver
+	 Marvin Niedt Support: http://rwtuts.net/contact-form/index.php
+-->
+
+
+
+%[if !edit]%
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='http://player.vimeo.com/video/%id=videoid%' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>VimeoWeaver 2 by RWtuts</b></center></div>
+		<p><div id="%id%_title"><center><i>Configure this Stack by using the given settings display on the right</i></center></div>
+	%[endif]%
+	
+<!-- End VimeoWeaver 2 Stack by RWtuts -->

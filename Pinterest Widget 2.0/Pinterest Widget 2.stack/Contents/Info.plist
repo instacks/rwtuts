@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.pinterestwidgettwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>pinterest</string>
+			<key>id</key>
+			<string>profile</string>
+			<key>title</key>
+			<string>Profile Name</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>helpURL</key>
+	<string>http://www.rwtuts.net/stacks/social</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Embed a lightweight Pinterest widget on your website.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Pinterest Widget 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Pinterest</string>
+		<string>Social</string>
+		<string>Pin</string>
+		<string>Embed</string>
+		<string>Images</string>
+		<string>Pictures</string>
+		<string>Profile</string>
+		<string>Widget</string>
+		<string>Responsive</string>
+	</array>
+</dict>
+</plist>

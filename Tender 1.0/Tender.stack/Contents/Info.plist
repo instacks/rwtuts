@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.tender</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>support.rwtuts.net</string>
+			<key>id</key>
+			<string>tender_id</string>
+			<key>title</key>
+			<string>Tender URL</string>
+			<key>toolTip</key>
+			<string>Enter the full URL of your Tender (f.e. help.example.com)</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Prefilled Title</string>
+			<key>id</key>
+			<string>disc_title</string>
+			<key>title</key>
+			<string>Subject</string>
+			<key>toolTip</key>
+			<string>prefilled subject for the discussion</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Prefilled Content</string>
+			<key>id</key>
+			<string>disc_content</string>
+			<key>title</key>
+			<string>Message</string>
+			<key>toolTip</key>
+			<string>prefilled message for the discussion</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>falseValue</key>
+			<string>false</string>
+			<key>id</key>
+			<string>disc_show</string>
+			<key>title</key>
+			<string>Hide Discussions Tab?</string>
+			<key>toolTip</key>
+			<string>show or hide the discussions tab</string>
+			<key>trueValue</key>
+			<string>true</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>falseValue</key>
+			<string>false</string>
+			<key>id</key>
+			<string>kb_show</string>
+			<key>title</key>
+			<string>Hide Knowledge Base?</string>
+			<key>toolTip</key>
+			<string>show or hide the knowledge base tab</string>
+			<key>trueValue</key>
+			<string>true</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>questions</string>
+			<key>id</key>
+			<string>category_select</string>
+			<key>title</key>
+			<string>Category</string>
+			<key>toolTip</key>
+			<string>default to 'questions' category - set this to a category permalink</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>right</string>
+			<key>group</key>
+			<string>Widget Location</string>
+			<key>id</key>
+			<string>widget_location</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Top</string>
+					<key>value</key>
+					<string>top</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Left</string>
+					<key>value</key>
+					<string>left</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Right</string>
+					<key>value</key>
+					<string>right</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Bottom</string>
+					<key>value</key>
+					<string>bottom</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Type</string>
+			<key>toolTip</key>
+			<string>change the location of the widget</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>Marvin Niedt</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Add a Tender Helpdesk Widget to your site.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Tender</string>
+</dict>
+</plist>

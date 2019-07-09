@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.fireworksthree</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/fireworks/appcast.xml</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>Fireworks v3.0 Copyright 2016 RWtuts</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>40</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>amount</string>
+			<key>title</key>
+			<string>Amount</string>
+			<key>toolTip</key>
+			<string>Defines how many particles per explosion are visible.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>500</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>min_speed</string>
+			<key>max</key>
+			<string>1000</string>
+			<key>min</key>
+			<string>100</string>
+			<key>ticks</key>
+			<string>100</string>
+			<key>title</key>
+			<string>Minimum Speed</string>
+			<key>toolTip</key>
+			<string>Defines the minimum speed interval of appearing explosions.</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>ms</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>2500</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>max_speed</string>
+			<key>max</key>
+			<string>3000</string>
+			<key>min</key>
+			<string>1000</string>
+			<key>ticks</key>
+			<string>1000</string>
+			<key>title</key>
+			<string>Maximum Speed</string>
+			<key>toolTip</key>
+			<string>Defines the maximum speed interval of appearing explosions.</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>ms</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>0.07</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>gravity</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>End in the air</string>
+					<key>value</key>
+					<string>0.07</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>End on the ground</string>
+					<key>value</key>
+					<string>0.29</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Gravity</string>
+			<key>toolTip</key>
+			<string>Customise the gravity of the explosions - do you want them to stay in the air or fall on the ground?</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>5</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>explosion_size</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Tiny</string>
+					<key>value</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Small</string>
+					<key>value</key>
+					<string>3</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Normal</string>
+					<key>value</key>
+					<string>5</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Big</string>
+					<key>value</key>
+					<string>7</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Huge</string>
+					<key>value</key>
+					<string>9</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Explosion Size</string>
+			<key>toolTip</key>
+			<string>Customise the size of the explosion.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#D0D0D0</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_one</string>
+			<key>title</key>
+			<string>Color 1</string>
+			<key>toolTip</key>
+			<string>Customise the first color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FF0000</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_two</string>
+			<key>title</key>
+			<string>Color 2</string>
+			<key>toolTip</key>
+			<string>Customise the second color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FFAC00</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_three</string>
+			<key>title</key>
+			<string>Color 3</string>
+			<key>toolTip</key>
+			<string>Customise the third color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FFDA00</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_four</string>
+			<key>title</key>
+			<string>Color 4</string>
+			<key>toolTip</key>
+			<string>Customise the fourth color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#7BFF00</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_five</string>
+			<key>title</key>
+			<string>Color 5</string>
+			<key>toolTip</key>
+			<string>Customise the fifth color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#00F5FF</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_six</string>
+			<key>title</key>
+			<string>Color 6</string>
+			<key>toolTip</key>
+			<string>Customise the sixth color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#0098FF</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_seven</string>
+			<key>title</key>
+			<string>Color 7</string>
+			<key>toolTip</key>
+			<string>Customise the seventh color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#7C00FF</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_eight</string>
+			<key>title</key>
+			<string>Color 8</string>
+			<key>toolTip</key>
+			<string>Customise the eighth color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FF00F0</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_nine</string>
+			<key>title</key>
+			<string>Color 9</string>
+			<key>toolTip</key>
+			<string>Customise the ninth color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FF006B</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_ten</string>
+			<key>title</key>
+			<string>Color 10</string>
+			<key>toolTip</key>
+			<string>Customise the tenth color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#509037</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_eleven</string>
+			<key>title</key>
+			<string>Color 11</string>
+			<key>toolTip</key>
+			<string>Customise the eleventh color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#905929</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_twelve</string>
+			<key>title</key>
+			<string>Color 12</string>
+			<key>toolTip</key>
+			<string>Customise the twelfth color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#a51823</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_thirteen</string>
+			<key>title</key>
+			<string>Color 13</string>
+			<key>toolTip</key>
+			<string>Customise the thirteenth color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#3339a4</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_fourteen</string>
+			<key>title</key>
+			<string>Color 14</string>
+			<key>toolTip</key>
+			<string>Customise the fourteenth color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#357ea5</string>
+			<key>group</key>
+			<string>Fireworks Customisation</string>
+			<key>id</key>
+			<string>color_fifteen</string>
+			<key>title</key>
+			<string>Color 15</string>
+			<key>toolTip</key>
+			<string>Customise the fifteenth color combination of the particles in an explosion.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Celebrate New Years Eve on your website!</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Fireworks 3</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Firework</string>
+		<string>New Year</string>
+		<string>Eve</string>
+		<string>celebrate</string>
+		<string>silvester</string>
+	</array>
+</dict>
+</plist>

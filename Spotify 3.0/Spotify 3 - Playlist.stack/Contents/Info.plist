@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.spotifythreeplaylist</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/spotify/appcast.xml</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>Spotify v3.0 - Playlist - Copyright 2017 RWtuts</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>1121727956</string>
+			<key>group</key>
+			<string>Spotify 3 Playlist Customisation</string>
+			<key>id</key>
+			<string>userid</string>
+			<key>title</key>
+			<string>Spotify User ID</string>
+			<key>toolTip</key>
+			<string>Enter your Spotify user ID (f.e. 1121727956)</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>5ZGLYsMu97rYbJasJ5XqzX</string>
+			<key>group</key>
+			<string>Spotify 3 Playlist Customisation</string>
+			<key>id</key>
+			<string>playlistid</string>
+			<key>title</key>
+			<string>Spotify Playlist ID</string>
+			<key>toolTip</key>
+			<string>Enter the Spotify playlist ID (f.e. 5ZGLYsMu97rYbJasJ5XqzX)</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>black</string>
+			<key>group</key>
+			<string>Spotify 3 Playlist Customisation</string>
+			<key>id</key>
+			<string>style</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Light</string>
+					<key>value</key>
+					<string>white</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Dark</string>
+					<key>value</key>
+					<string>black</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Appearance</string>
+			<key>toolTip</key>
+			<string>Customise appearance of the widget by choosing between a light and a dark theme</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>300</string>
+			<key>group</key>
+			<string>Spotify 3 Playlist Customisation</string>
+			<key>id</key>
+			<string>playerwidth</string>
+			<key>max</key>
+			<string>640</string>
+			<key>min</key>
+			<string>250</string>
+			<key>ticks</key>
+			<string>10</string>
+			<key>title</key>
+			<string>Player Width</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>380</string>
+			<key>group</key>
+			<string>Spotify 3 Playlist Customisation</string>
+			<key>id</key>
+			<string>playerheight</string>
+			<key>max</key>
+			<string>720</string>
+			<key>min</key>
+			<string>80</string>
+			<key>ticks</key>
+			<string>10</string>
+			<key>title</key>
+			<string>Player Height</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Embed a playlist from Spotify.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Spotify 3 Playlist</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Spotify</string>
+		<string>Music</string>
+		<string>Player</string>
+		<string>embed</string>
+	</array>
+</dict>
+</plist>

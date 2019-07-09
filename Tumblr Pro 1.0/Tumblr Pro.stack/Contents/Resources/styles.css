@@ -1,0 +1,12 @@
+	.tumblr_title {
+		font-family: '%id=fontface_title%';
+		font-weight: %id=fontweight_title%;
+		color: %id=fontcolor_title%;
+	}
+	
+	.tumblr_body {
+		font-family: '%id=fontface_body%';
+		font-weight: %id=fontweight_body%;
+		color: %id=fontcolor_body%; 
+	}
+	

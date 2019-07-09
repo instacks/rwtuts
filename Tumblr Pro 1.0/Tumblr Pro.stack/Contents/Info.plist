@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.rwtuts.stacks.TumblrPro</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>rwtuts</string>
+			<key>group</key>
+			<string>General</string>
+			<key>id</key>
+			<string>tumblrname</string>
+			<key>title</key>
+			<string>Tumblr Name</string>
+			<key>toolTip</key>
+			<string>Insert the name of the Tumblr blog you would like to embed.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Helvetica</string>
+			<key>group</key>
+			<string>Title Styles</string>
+			<key>id</key>
+			<string>fontface_title</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Helvetica</string>
+					<key>value</key>
+					<string>Helvetica</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Aller</string>
+					<key>value</key>
+					<string>Aller</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Arial</string>
+					<key>value</key>
+					<string>Arial</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Times New Roman</string>
+					<key>value</key>
+					<string>Times New Roman</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Courier New</string>
+					<key>value</key>
+					<string>Courier New</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Museo Slab</string>
+					<key>value</key>
+					<string>Museo Slab</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Avenir</string>
+					<key>value</key>
+					<string>Avenir</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Futura</string>
+					<key>value</key>
+					<string>Futura</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Comic Sans MS</string>
+					<key>value</key>
+					<string>Comic Sans MS</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pacifico</string>
+					<key>value</key>
+					<string>Pacifico</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Font</string>
+			<key>toolTip</key>
+			<string>Customize the font of the blog titles.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>bold</string>
+			<key>group</key>
+			<string>Title Styles</string>
+			<key>id</key>
+			<string>fontweight_title</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Thin</string>
+					<key>value</key>
+					<string>lighter</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Normal</string>
+					<key>value</key>
+					<string>normal</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Bold</string>
+					<key>value</key>
+					<string>bold</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Extra Bold</string>
+					<key>value</key>
+					<string>bolder</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Font Weight</string>
+			<key>toolTip</key>
+			<string>Customize the font weight of the blog titles.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#000000</string>
+			<key>group</key>
+			<string>Title Styles</string>
+			<key>id</key>
+			<string>fontcolor_title</string>
+			<key>title</key>
+			<string>Font Color</string>
+			<key>toolTip</key>
+			<string>Customize the font color of the blog titles.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Helvetica</string>
+			<key>group</key>
+			<string>Content Styles</string>
+			<key>id</key>
+			<string>fontface_body</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Helvetica</string>
+					<key>value</key>
+					<string>Helvetica</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Aller</string>
+					<key>value</key>
+					<string>Aller</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Arial</string>
+					<key>value</key>
+					<string>Arial</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Times New Roman</string>
+					<key>value</key>
+					<string>Times New Roman</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Courier New</string>
+					<key>value</key>
+					<string>Courier New</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Museo Slab</string>
+					<key>value</key>
+					<string>Museo Slab</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Avenir</string>
+					<key>value</key>
+					<string>Avenir</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Futura</string>
+					<key>value</key>
+					<string>Futura</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Comic Sans MS</string>
+					<key>value</key>
+					<string>Comic Sans MS</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pacifico</string>
+					<key>value</key>
+					<string>Pacifico</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Font</string>
+			<key>toolTip</key>
+			<string>Customize the font of the blog post contents.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>normal</string>
+			<key>group</key>
+			<string>Content Styles</string>
+			<key>id</key>
+			<string>fontweight_body</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Thin</string>
+					<key>value</key>
+					<string>lighter</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Normal</string>
+					<key>value</key>
+					<string>normal</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Bold</string>
+					<key>value</key>
+					<string>bold</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Extra Bold</string>
+					<key>value</key>
+					<string>bolder</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Font Weight</string>
+			<key>toolTip</key>
+			<string>Customize the font weight of the blog post contents.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#000000</string>
+			<key>group</key>
+			<string>Content Styles</string>
+			<key>id</key>
+			<string>fontcolor_body</string>
+			<key>title</key>
+			<string>Font Color</string>
+			<key>toolTip</key>
+			<string>Customize the font color of the blog post contents.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>helpURL</key>
+	<string>http://www.rwtuts.net/stacks/tumblr-pro</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Embed and customize your Tumblr blog with ease.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Tumblr Pro</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Tumblr</string>
+		<string>Pro</string>
+		<string>Embed</string>
+		<string>Blog</string>
+		<string>Posts</string>
+		<string>Customize</string>
+	</array>
+</dict>
+</plist>

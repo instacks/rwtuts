@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.googleplusprofiletwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>101237407892584375471</string>
+			<key>id</key>
+			<string>profile_id</string>
+			<key>title</key>
+			<string>Google+ ID</string>
+			<key>toolTip</key>
+			<string>Enter the ID of your Google Profile. You can find it here: https://www.google.com/settings/privacy</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>300</string>
+			<key>id</key>
+			<string>width</string>
+			<key>title</key>
+			<string>Profile Width</string>
+			<key>toolTip</key>
+			<string>Change the width of your widget.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>light</string>
+			<key>group</key>
+			<string>Profile Theme</string>
+			<key>id</key>
+			<string>theme</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Light</string>
+					<key>value</key>
+					<string>light</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Dark</string>
+					<key>value</key>
+					<string>dark</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Theme</string>
+			<key>toolTip</key>
+			<string>change the theme style of the widget.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>portrait</string>
+			<key>group</key>
+			<string>Profile Layout</string>
+			<key>id</key>
+			<string>layout</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Portrait</string>
+					<key>value</key>
+					<string>portrait</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Landscape</string>
+					<key>value</key>
+					<string>landscape</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Layout</string>
+			<key>toolTip</key>
+			<string>change the layout style of the widget.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Add a Google+ Profile widget to your website</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Google+ Profile 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Google</string>
+		<string>Plus</string>
+		<string>Profile</string>
+		<string>Widget</string>
+		<string>Box</string>
+		<string>Social</string>
+		<string>Network</string>
+	</array>
+</dict>
+</plist>

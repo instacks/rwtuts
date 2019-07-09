@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.tubeweaverthree</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0</string>
+	<key>CFBundleVersion</key>
+	<string>3000</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/tubeweaver/appcast.xml</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>dsa_pub.pem</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>TubeWeaver 3 - Copyright 2017 RWtuts</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>0wCC3aLXdOw</string>
+			<key>group</key>
+			<string>TubeWeaver 3 Customisation</string>
+			<key>id</key>
+			<string>videoid</string>
+			<key>title</key>
+			<string>Video ID</string>
+			<key>toolTip</key>
+			<string>Enter the ID of the video you'd like to embed. DO NOT paste the whole URL!</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>red</string>
+			<key>group</key>
+			<string>TubeWeaver 3 Customisation</string>
+			<key>id</key>
+			<string>playercolor</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Red</string>
+					<key>value</key>
+					<string>red</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>White</string>
+					<key>value</key>
+					<string>white</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Player Color</string>
+			<key>toolTip</key>
+			<string>Customise the color of the video players progress bar.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>0</string>
+			<key>group</key>
+			<string>TubeWeaver 3 Customisation</string>
+			<key>id</key>
+			<string>autoplay</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Yes</string>
+					<key>value</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>No</string>
+					<key>value</key>
+					<string>0</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Autoplay?</string>
+			<key>toolTip</key>
+			<string>Do you want the video to play automatically upon page load?</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>0</string>
+			<key>group</key>
+			<string>TubeWeaver 3 Customisation</string>
+			<key>id</key>
+			<string>loop</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Yes</string>
+					<key>value</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>No</string>
+					<key>value</key>
+					<string>0</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Loop?</string>
+			<key>toolTip</key>
+			<string>Do you want the video to loop?</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1</string>
+			<key>group</key>
+			<string>TubeWeaver 3 Customisation</string>
+			<key>id</key>
+			<string>playercontrols</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Add Controls</string>
+					<key>value</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Remove Controls</string>
+					<key>value</key>
+					<string>0</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Controls?</string>
+			<key>toolTip</key>
+			<string>Do you want to add or remove the controls from the player?</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1</string>
+			<key>group</key>
+			<string>TubeWeaver 3 Customisation</string>
+			<key>id</key>
+			<string>fullscreen</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Allow</string>
+					<key>value</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Deny</string>
+					<key>value</key>
+					<string>0</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Fullscreen?</string>
+			<key>toolTip</key>
+			<string>Do you want to allow or deny the ability to switch to fullscreen from the player settings?</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>0</string>
+			<key>group</key>
+			<string>TubeWeaver 3 Customisation</string>
+			<key>id</key>
+			<string>startposition</string>
+			<key>title</key>
+			<string>Start at (s)</string>
+			<key>toolTip</key>
+			<string>Customise at which position the video should start (in seconds). If you want the video to play from the beginning, enter 0.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>helpURL</key>
+	<string>http://www.rwtuts.net/stacks/tubeweaver</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Embed YouTube videos responsively and customisable.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>TubeWeaver 3</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>TubeWeaver</string>
+		<string>YouTube</string>
+		<string>Video</string>
+		<string>Responsive</string>
+		<string>Fluid</string>
+		<string>Customisable</string>
+		<string>HTML5</string>
+		<string>iFrame</string>
+		<string>RWtuts</string>
+	</array>
+</dict>
+</plist>

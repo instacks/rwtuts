@@ -1,0 +1,37 @@
+<!-- Vimeo Gallery Stack version 1.0 - Custom Javascript 
+	 Last changed: 08/25/16
+	 Stack Author: Marvin Niedt
+	 Stack Website and Info: http://rwtuts.net/stacks/vimeo-gallery
+	 Marvin Niedt Support: http://rwtuts.net/support
+-->
+
+
+%[if !edit]%
+<style id="badge-styles">
+ .vimeoBadge { margin: 0; padding: 0; font: normal %id=font-size%px '%id=font-face%'; }
+ .vimeoBadge img { border: 0; }
+ .vimeoBadge a, .vimeoBadge a:link, .vimeoBadge a:visited, .vimeoBadge a:active { color: %id=title-color-normal%; text-decoration: none; cursor: pointer; }
+ .vimeoBadge a:hover { color:%id=title-color-hover%; }
+ .vimeoBadge #vimeo_badge_logo { margin-top:10px; width: 57px; height: 16px; }
+ .vimeoBadge .credit { font: normal %id=font-size%px '%id=font-face%'; }
+ .vimeoBadge .clip { padding:0; float:left; margin:0 10px 10px 0; line-height:0; }
+ .vimeoBadge.vertical .clip { float: none; }
+ .vimeoBadge .caption { font: normal %id=font-size%px '%id=font-face%'; overflow:hidden; width: auto; height: 30px; }
+ .vimeoBadge .clear { display: block; clear: both; visibility: hidden; }
+ .vimeoBadge .s160 { width: 160px; } .vimeoBadge .s80 { width: 80px; } .vimeoBadge .s100 { width: 100px; } .vimeoBadge .s200 { width: 200px; }
+ </style><div id="badge">
+<div class="vimeoBadge horizontal">
+<script src="https://vimeo.com/%id=vimeo-link%/badgeo/?script=1&badge_layout=horizontal&badge_quantity=%id=thumbnail-amount%&badge_size=%id=thumbnail-size%&badge_stream=uploaded&show_titles=%id=show-titles%&badge_channel=324794&badge_group=93920"></script>
+</div>
+</div>
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>Vimeo Gallery by RWtuts</b></center></div>
+		<p><div id="%id%_title"><center><i>Configure this Stack by using the given settings display on the right</i></center></div>
+	%[endif]%
+	
+<!-- End Vimeo Gallery Stack by RWtuts -->

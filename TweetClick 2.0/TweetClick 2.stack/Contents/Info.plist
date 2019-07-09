@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.tweetclicktwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>http://www.rwtuts.net/</string>
+			<key>id</key>
+			<string>url</string>
+			<key>title</key>
+			<string>Displayed URL</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>RWtuts</string>
+			<key>id</key>
+			<string>via</string>
+			<key>title</key>
+			<string>Displayed Via</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Default tweet text, you can also leave this blank.</string>
+			<key>id</key>
+			<string>text</string>
+			<key>title</key>
+			<string>Text</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Hashtag</string>
+			<key>id</key>
+			<string>hashtags</string>
+			<key>title</key>
+			<string>Hashtags</string>
+			<key>toolTip</key>
+			<string>Enter hashtags here, you can also leave this blank. Please DON'T use # before the actual words!</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>default</string>
+			<key>id</key>
+			<string>size</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Small</string>
+					<key>value</key>
+					<string>default</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Large</string>
+					<key>value</key>
+					<string>large</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Button Size</string>
+			<key>toolTip</key>
+			<string>Choose between a small and large tweet button.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Add a lightweight and customizable Tweet button to your website.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>TweetClick 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Tweet</string>
+		<string>Click</string>
+		<string>Twitter</string>
+		<string>customize</string>
+		<string>Share</string>
+		<string>rwtuts</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.progressbartwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>0</string>
+			<key>group</key>
+			<string>General</string>
+			<key>id</key>
+			<string>margin_width</string>
+			<key>title</key>
+			<string>Margin (px)</string>
+			<key>toolTip</key>
+			<string>Define the margin of the progressbar. Value in pixels.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>100</string>
+			<key>group</key>
+			<string>General</string>
+			<key>id</key>
+			<string>pb_width</string>
+			<key>title</key>
+			<string>Width (%)</string>
+			<key>toolTip</key>
+			<string>Define the width of the progressbar. Value in percent.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>active</string>
+			<key>group</key>
+			<string>General</string>
+			<key>id</key>
+			<string>animated</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Animated</string>
+					<key>value</key>
+					<string>active</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Non-Animated</string>
+					<key>value</key>
+					<string></string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Animated</string>
+			<key>toolTip</key>
+			<string>Decide whether you want the progressbar to be animated or not.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>100</string>
+			<key>group</key>
+			<string>Content 1</string>
+			<key>id</key>
+			<string>one_achieved</string>
+			<key>max</key>
+			<string>100</string>
+			<key>min</key>
+			<string>0</string>
+			<key>ticks</key>
+			<string>10</string>
+			<key>title</key>
+			<string>Percentage</string>
+			<key>toolTip</key>
+			<string>Set the achieved percentage of this content.</string>
+			<key>type</key>
+			<string>slider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#fb8c25</string>
+			<key>group</key>
+			<string>Content 1</string>
+			<key>id</key>
+			<string>one_color</string>
+			<key>title</key>
+			<string>Color</string>
+			<key>toolTip</key>
+			<string>Set the progressbar color of this content.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>20</string>
+			<key>group</key>
+			<string>Content 1</string>
+			<key>id</key>
+			<string>one_label</string>
+			<key>title</key>
+			<string>Description</string>
+			<key>toolTip</key>
+			<string>Set a description for this content.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>0</string>
+			<key>group</key>
+			<string>Content 2</string>
+			<key>id</key>
+			<string>two_achieved</string>
+			<key>max</key>
+			<string>100</string>
+			<key>min</key>
+			<string>0</string>
+			<key>ticks</key>
+			<string>10</string>
+			<key>title</key>
+			<string>Percentage</string>
+			<key>toolTip</key>
+			<string>Set the achieved percentage of this content.</string>
+			<key>type</key>
+			<string>slider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#fa231c</string>
+			<key>group</key>
+			<string>Content 2</string>
+			<key>id</key>
+			<string>two_color</string>
+			<key>title</key>
+			<string>Color</string>
+			<key>toolTip</key>
+			<string>Set the progressbar color of this content.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>group</key>
+			<string>Content 2</string>
+			<key>id</key>
+			<string>two_label</string>
+			<key>title</key>
+			<string>Description</string>
+			<key>toolTip</key>
+			<string>Set a description for this content.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>0</string>
+			<key>group</key>
+			<string>Content 3</string>
+			<key>id</key>
+			<string>three_achieved</string>
+			<key>max</key>
+			<string>100</string>
+			<key>min</key>
+			<string>0</string>
+			<key>ticks</key>
+			<string>10</string>
+			<key>title</key>
+			<string>Percentage</string>
+			<key>toolTip</key>
+			<string>Set the achieved percentage of this content.</string>
+			<key>type</key>
+			<string>slider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#d50e59</string>
+			<key>group</key>
+			<string>Content 3</string>
+			<key>id</key>
+			<string>three_color</string>
+			<key>title</key>
+			<string>Color</string>
+			<key>toolTip</key>
+			<string>Set the progressbar color of this content.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>group</key>
+			<string>Content 3</string>
+			<key>id</key>
+			<string>three_label</string>
+			<key>title</key>
+			<string>Description</string>
+			<key>toolTip</key>
+			<string>Set a description for this content.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>0</string>
+			<key>group</key>
+			<string>Content 4</string>
+			<key>id</key>
+			<string>four_achieved</string>
+			<key>max</key>
+			<string>100</string>
+			<key>min</key>
+			<string>0</string>
+			<key>ticks</key>
+			<string>10</string>
+			<key>title</key>
+			<string>Percentage</string>
+			<key>toolTip</key>
+			<string>Set the achieved percentage of this content.</string>
+			<key>type</key>
+			<string>slider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#41d426</string>
+			<key>group</key>
+			<string>Content 4</string>
+			<key>id</key>
+			<string>four_color</string>
+			<key>title</key>
+			<string>Color</string>
+			<key>toolTip</key>
+			<string>Set the progressbar color of this content.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>group</key>
+			<string>Content 4</string>
+			<key>id</key>
+			<string>four_label</string>
+			<key>title</key>
+			<string>Description</string>
+			<key>toolTip</key>
+			<string>Set a description for this content.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>0</string>
+			<key>group</key>
+			<string>Content 5</string>
+			<key>id</key>
+			<string>five_achieved</string>
+			<key>max</key>
+			<string>100</string>
+			<key>min</key>
+			<string>0</string>
+			<key>ticks</key>
+			<string>10</string>
+			<key>title</key>
+			<string>Percentage</string>
+			<key>toolTip</key>
+			<string>Set the achieved percentage of this content.</string>
+			<key>type</key>
+			<string>slider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#1550a4</string>
+			<key>group</key>
+			<string>Content 5</string>
+			<key>id</key>
+			<string>five_color</string>
+			<key>title</key>
+			<string>Color</string>
+			<key>toolTip</key>
+			<string>Set the progressbar color of this content.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string></string>
+			<key>group</key>
+			<string>Content 5</string>
+			<key>id</key>
+			<string>five_label</string>
+			<key>title</key>
+			<string>Description</string>
+			<key>toolTip</key>
+			<string>Set a description for this content.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Add customizable and animated progressbars to your website.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>ProgressBar 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Progress</string>
+		<string>Bar</string>
+		<string>Progressbar</string>
+		<string>Percent</string>
+		<string>Status</string>
+		<string>Construction</string>
+		<string>RWtuts</string>
+		<string>Stack</string>
+	</array>
+</dict>
+</plist>

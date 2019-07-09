@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.detailsprotwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.1</string>
+	<key>CFBundleVersion</key>
+	<string>2100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/detailspro/appcast.xml</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>DetailsPro 2 - Copyright 2017 RWtuts</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>#000000</string>
+			<key>id</key>
+			<string>titlecolor</string>
+			<key>title</key>
+			<string>Title Background</string>
+			<key>toolTip</key>
+			<string>The background color of the boxes title/header</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#808285</string>
+			<key>id</key>
+			<string>bodycolor</string>
+			<key>title</key>
+			<string>Body Background</string>
+			<key>toolTip</key>
+			<string>The background color of the boxes main content</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FFFFFF</string>
+			<key>id</key>
+			<string>titlefontcolor</string>
+			<key>title</key>
+			<string>Title Font Color</string>
+			<key>toolTip</key>
+			<string>The font color of the boxes title/header</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FFFFFF</string>
+			<key>id</key>
+			<string>bodyfontcolor</string>
+			<key>title</key>
+			<string>Body Font Color</string>
+			<key>toolTip</key>
+			<string>The font color of the boxes main content</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>helpURL</key>
+	<string>http://www.rwtuts.net/stacks/detailspro</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Add a customizable details enclosure box on your website</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>DetailsPro 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Details</string>
+		<string>Pro</string>
+		<string>Digital</string>
+		<string>Enclosure</string>
+		<string>Box</string>
+		<string>Show</string>
+		<string>More</string>
+	</array>
+</dict>
+</plist>

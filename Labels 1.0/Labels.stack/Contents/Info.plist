@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.labels</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/labels/appcast.xml</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>Labels - Copyright 2017 RWtuts</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>Helvetica</string>
+			<key>group</key>
+			<string>Font Styling</string>
+			<key>id</key>
+			<string>font_face</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Helvetica</string>
+					<key>value</key>
+					<string>Helvetica</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Aller</string>
+					<key>value</key>
+					<string>Aller</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Arial</string>
+					<key>value</key>
+					<string>Arial</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Times New Roman</string>
+					<key>value</key>
+					<string>Times New Roman</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Courier New</string>
+					<key>value</key>
+					<string>Courier New</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Museo Slab</string>
+					<key>value</key>
+					<string>Museo Slab</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Avenir</string>
+					<key>value</key>
+					<string>Avenir</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Futura</string>
+					<key>value</key>
+					<string>Futura</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Comic Sans MS</string>
+					<key>value</key>
+					<string>Comic Sans MS</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pacifico</string>
+					<key>value</key>
+					<string>Pacifico</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Font</string>
+			<key>toolTip</key>
+			<string>Customise the font of the text inside the label.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>75%</string>
+			<key>group</key>
+			<string>Font Styling</string>
+			<key>id</key>
+			<string>font_size</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Huge</string>
+					<key>value</key>
+					<string>100%</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Big</string>
+					<key>value</key>
+					<string>75%</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Normal</string>
+					<key>value</key>
+					<string>50%</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Small</string>
+					<key>value</key>
+					<string>25%</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Tiny</string>
+					<key>value</key>
+					<string>10%</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Size</string>
+			<key>toolTip</key>
+			<string>Customise the font size of the text inside the label.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Font Styling</string>
+			<key>id</key>
+			<string>font_color</string>
+			<key>title</key>
+			<string>Font Color</string>
+			<key>toolTip</key>
+			<string>Customize the font color of the text inside the label.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<true/>
+			<key>falseValue</key>
+			<string>100</string>
+			<key>group</key>
+			<string>Font Styling</string>
+			<key>id</key>
+			<string>font_bold</string>
+			<key>title</key>
+			<string>Bold</string>
+			<key>trueValue</key>
+			<string>800</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>falseValue</key>
+			<string>normal</string>
+			<key>group</key>
+			<string>Font Styling</string>
+			<key>id</key>
+			<string>font_italic</string>
+			<key>title</key>
+			<string>Italic</string>
+			<key>trueValue</key>
+			<string>italic</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Recently Updated</string>
+			<key>group</key>
+			<string>Label Styling</string>
+			<key>id</key>
+			<string>label_text</string>
+			<key>title</key>
+			<string>Text</string>
+			<key>toolTip</key>
+			<string>Customise the text inside of the label.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>1</integer>
+			<key>group</key>
+			<string>Label Styling</string>
+			<key>id</key>
+			<string>label_height</string>
+			<key>max</key>
+			<integer>20</integer>
+			<key>min</key>
+			<integer>1</integer>
+			<key>title</key>
+			<string>Height</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>pt</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>1</integer>
+			<key>group</key>
+			<string>Label Styling</string>
+			<key>id</key>
+			<string>border_size</string>
+			<key>max</key>
+			<integer>20</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Border Size</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>solid</string>
+			<key>group</key>
+			<string>Label Styling</string>
+			<key>id</key>
+			<string>border_style</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Solid</string>
+					<key>value</key>
+					<string>solid</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Dotted</string>
+					<key>value</key>
+					<string>dotted</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Dashed</string>
+					<key>value</key>
+					<string>dashed</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Double</string>
+					<key>value</key>
+					<string>double</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Groove</string>
+					<key>value</key>
+					<string>groove</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Ridge</string>
+					<key>value</key>
+					<string>ridge</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Outset</string>
+					<key>value</key>
+					<string>outset</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Inset</string>
+					<key>value</key>
+					<string>inset</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Border Style</string>
+			<key>toolTip</key>
+			<string>Customise the style of the labels border.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#590E31</string>
+			<key>group</key>
+			<string>Label Styling</string>
+			<key>id</key>
+			<string>border_color</string>
+			<key>title</key>
+			<string>Border Color</string>
+			<key>toolTip</key>
+			<string>Customise the color of the labels border.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<integer>4</integer>
+			<key>group</key>
+			<string>Label Styling</string>
+			<key>id</key>
+			<string>border_radius</string>
+			<key>max</key>
+			<integer>20</integer>
+			<key>min</key>
+			<integer>0</integer>
+			<key>title</key>
+			<string>Border Radius</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#800040</string>
+			<key>group</key>
+			<string>Label Styling</string>
+			<key>id</key>
+			<string>bckgr_color</string>
+			<key>title</key>
+			<string>BG Color</string>
+			<key>toolTip</key>
+			<string>Customise the background color of the label.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>infoURL</key>
+	<string>http://www.rwtuts.net/stacks/labels</string>	
+	<key>subtitle</key>
+	<string>Add responsive and customisable labels to your website.</string>
+	<key>title</key>
+	<string>Labels</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Labels</string>
+		<string>Sticky</string>
+		<string>Notes</string>
+		<string>Compare</string>
+		<string>Responsive</string>
+		<string>Customisable</string>
+		<string>Stack</string>
+		<string>RWtuts</string>
+	</array>
+	<key>templates</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>template.html</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>html</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>styles.css</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>css</string>
+		</dict>
+	</array>
+</dict>
+</plist>

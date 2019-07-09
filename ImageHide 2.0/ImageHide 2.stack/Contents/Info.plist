@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.imagehidetwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>bold</string>
+			<key>id</key>
+			<string>fontstyle</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Bold</string>
+					<key>value</key>
+					<string>bold</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Bolder</string>
+					<key>value</key>
+					<string>bolder</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Inherit</string>
+					<key>value</key>
+					<string>inherit</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Lighter</string>
+					<key>value</key>
+					<string>lighter</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Normal</string>
+					<key>value</key>
+					<string>normal</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Important</string>
+					<key>value</key>
+					<string>!important</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Font Style</string>
+			<key>toolTip</key>
+			<string>change the font style.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>0</string>
+			<key>id</key>
+			<string>borderpx</string>
+			<key>title</key>
+			<string>Border Size</string>
+			<key>toolTip</key>
+			<string>Change the size of the button border.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>solid</string>
+			<key>id</key>
+			<string>borderstyle</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Solid</string>
+					<key>value</key>
+					<string>Solid</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Dotted</string>
+					<key>value</key>
+					<string>Dotted</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Dashed</string>
+					<key>value</key>
+					<string>Dashed</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Double</string>
+					<key>value</key>
+					<string>Double</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Groove</string>
+					<key>value</key>
+					<string>Groove</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Ridge</string>
+					<key>value</key>
+					<string>Ridge</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Outset</string>
+					<key>value</key>
+					<string>Outset</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Inset</string>
+					<key>value</key>
+					<string>Inset</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Border Style</string>
+			<key>toolTip</key>
+			<string>change the border style.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>id</key>
+			<string>bordercolor</string>
+			<key>title</key>
+			<string>Border Color</string>
+			<key>toolTip</key>
+			<string>Change the border color of the button</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Normal Button Styles</string>
+			<key>id</key>
+			<string>fontcolor</string>
+			<key>title</key>
+			<string>Font Color</string>
+			<key>toolTip</key>
+			<string>The font color of the button in normal state</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#6600bb</string>
+			<key>group</key>
+			<string>Normal Button Styles</string>
+			<key>id</key>
+			<string>bgcolor</string>
+			<key>title</key>
+			<string>BG Color</string>
+			<key>toolTip</key>
+			<string>The background color of the button in normal state</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Hovered Button Styles</string>
+			<key>id</key>
+			<string>hoverfontcolor</string>
+			<key>title</key>
+			<string>Font Color</string>
+			<key>toolTip</key>
+			<string>The font color of the button in hover state</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#a31ff5</string>
+			<key>group</key>
+			<string>Hovered Button Styles</string>
+			<key>id</key>
+			<string>hoverbgcolor</string>
+			<key>title</key>
+			<string>BG Color</string>
+			<key>toolTip</key>
+			<string>The background color of the button in hover state</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Pressed Button Styles</string>
+			<key>id</key>
+			<string>activefontcolor</string>
+			<key>title</key>
+			<string>Font Color</string>
+			<key>toolTip</key>
+			<string>The font color of the button in pressed state</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#380066</string>
+			<key>group</key>
+			<string>Pressed Button Styles</string>
+			<key>id</key>
+			<string>activebgcolor</string>
+			<key>title</key>
+			<string>BG Color</string>
+			<key>toolTip</key>
+			<string>The background color of the button in pressed state</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Hide or show the images on your website with a single click of a button.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>ImageHide 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Image</string>
+		<string>Pictures</string>
+		<string>Picture</string>
+		<string>Hide</string>
+		<string>Show</string>
+		<string>Enclosure</string>
+		<string>Button</string>
+		<string>Show</string>
+		<string>More</string>
+		<string>Less</string>
+	</array>
+</dict>
+</plist>

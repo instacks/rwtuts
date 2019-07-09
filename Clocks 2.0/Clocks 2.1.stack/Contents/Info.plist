@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.clockstwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.1</string>
+	<key>CFBundleVersion</key>
+	<string>2100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/clocks/appcast.xml</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>Clocks 2 - Copyright 2017 RWtuts</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>Helvetica</string>
+			<key>group</key>
+			<string>Font</string>
+			<key>id</key>
+			<string>font</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Helvetica</string>
+					<key>value</key>
+					<string>Helvetica</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Aller</string>
+					<key>value</key>
+					<string>Aller</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Arial</string>
+					<key>value</key>
+					<string>Arial</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Times New Roman</string>
+					<key>value</key>
+					<string>Times New Roman</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Courier New</string>
+					<key>value</key>
+					<string>Courier New</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Museo Slab</string>
+					<key>value</key>
+					<string>Museo Slab</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Avenir</string>
+					<key>value</key>
+					<string>Avenir</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Futura</string>
+					<key>value</key>
+					<string>Futura</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Comic Sans MS</string>
+					<key>value</key>
+					<string>Comic Sans MS</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pacifico</string>
+					<key>value</key>
+					<string>Pacifico</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Font</string>
+			<key>toolTip</key>
+			<string>Customize the font of the clock.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>16</string>
+			<key>id</key>
+			<string>fontsize</string>
+			<key>title</key>
+			<string>Size</string>
+			<key>toolTip</key>
+			<string>Enter the font size of the clock.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#000000</string>
+			<key>id</key>
+			<string>fontcolor</string>
+			<key>title</key>
+			<string>Color</string>
+			<key>toolTip</key>
+			<string>Customize the color of the clocks font.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>helpURL</key>
+	<string>http://www.rwtuts.net/stacks/clocks</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Displays a simple, lightweight digital clock on your site.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Clocks 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Clock</string>
+		<string>Time</string>
+		<string>Digital</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,233 @@
+<!-- ProSearch Stack version 2.0 - Custom Javascript 
+	 Last changed: 09/24/15
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/prosearch
+	 Marvin Niedt Support: http://rwtuts.net/contact-form/index.php
+-->
+
+%[if !edit]%
+<script type="text/javascript">
+<!--
+
+var Texte43 = new Array();
+var Tags43 = new Array();
+var Tagklammern43 = new Array("<",">");
+var Klammernersatz43 = new Array("&lt;","&gt;");
+var Scripttags43 = new Array(Tagklammern43[0]+"sc"+"ript",Tagklammern43[0]+"/sc"+"ript>");
+var Selecttags43 = new Array(Tagklammern43[0]+"select",Tagklammern43[0]+"/select>");
+var Textareatags43 = new Array(Tagklammern43[0]+"textarea",Tagklammern43[0]+"/textarea>");
+var HTML_der_Seite43 = "";
+var Seiteninhalt43 = "";
+var Treffer43 = 0;
+
+function auf_Seite_suchen43()
+{
+if(document.getElementsByTagName&&document.Seite_durchsuchen_Formular43.innerHTML)
+{
+Treffer43 = 0;
+var Durchlauf43 = 0;
+var gesuchter_Text43 = "";
+var Text_ohne_amp43 = document.Seite_durchsuchen_Formular43.gesuchter_Text43.value;
+var Input_Inhalte43 = new Array();
+var Radio_ausgewaehlt43 = new Array();
+var Textarea_Inhalte43 = new Array();
+var Select_Index43 = new Array();
+
+if(HTML_der_Seite43=="")
+HTML_der_Seite43 = document.getElementsByTagName("body")[0].innerHTML;
+
+while(Text_ohne_amp43.indexOf("&")>-1)
+{
+with(Text_ohne_amp43)
+{
+gesuchter_Text43 += substring(0,indexOf("&"))+"&amp;";
+Text_ohne_amp43 = substring(indexOf("&")+1);
+}
+}
+gesuchter_Text43 += Text_ohne_amp43;
+
+for(var i=0;i<2;i++)
+{
+while(gesuchter_Text43.indexOf(Tagklammern43[i])>-1)
+{
+with(gesuchter_Text43)
+gesuchter_Text43 = substring(0,indexOf(Tagklammern43[i]))+Klammernersatz43[i]+substring(indexOf(Tagklammern43[i])+1);
+}
+}
+
+Seiteninhalt43 = HTML_der_Seite43;
+
+if(Seiteninhalt43.indexOf("<")>-1)
+{
+with(Seiteninhalt43)
+{
+if(charAt(indexOf("<")+1)==charAt(indexOf("<")+1).toUpperCase())
+{
+for(var i=0;i<2;i++)
+{
+Scripttags43[i] = Scripttags43[i].toUpperCase();
+Selecttags43[i] = Selecttags43[i].toUpperCase();
+Textareatags43[i] = Textareatags43[i].toUpperCase();
+}
+}
+}
+}
+
+for(var i=0;i<document.getElementsByTagName("input").length;i++)
+{
+Input_Inhalte43[i] = document.getElementsByTagName("input")[i].value;
+if(document.getElementsByTagName("input")[i].type=="radio"||document.getElementsByTagName("input")[i].type=="checkbox")
+Radio_ausgewaehlt43[i] = document.getElementsByTagName("input")[i].checked;
+}
+for(var i=0;i<document.getElementsByTagName("textarea").length;i++)
+Textarea_Inhalte43[i] = document.getElementsByTagName("textarea")[i].value;
+for(var i=0;i<document.getElementsByTagName("select").length;i++)
+Select_Index43[i] = document.getElementsByTagName("select")[i].selectedIndex;
+
+while(Seiteninhalt43.indexOf("<")>-1)
+{
+with(Seiteninhalt43)
+Texte43[Durchlauf43] = substring(0,indexOf("<"));
+if(Seiteninhalt43.substring(Seiteninhalt43.indexOf("<"),Seiteninhalt43.indexOf("<")+7)==Scripttags43[0])
+{
+with(Seiteninhalt43)
+{
+Tags43[Durchlauf43] = substring(indexOf(Scripttags43[0]),indexOf(Scripttags43[1])+9);
+Seiteninhalt43 = substring(indexOf(Scripttags43[1])+9);
+}
+}
+else if(Seiteninhalt43.substring(Seiteninhalt43.indexOf("<"),Seiteninhalt43.indexOf("<")+7)==Selecttags43[0])
+{
+with(Seiteninhalt43)
+{
+Tags43[Durchlauf43] = substring(indexOf(Selecttags43[0]),indexOf(Selecttags43[1])+9);
+Seiteninhalt43 = substring(indexOf(Selecttags43[1])+9);
+}
+}
+else if(Seiteninhalt43.substring(Seiteninhalt43.indexOf("<"),Seiteninhalt43.indexOf("<")+9)==Textareatags43[0])
+{
+with(Seiteninhalt43)
+{
+Tags43[Durchlauf43] = substring(indexOf(Textareatags43[0]),indexOf(Textareatags43[1])+11);
+Seiteninhalt43 = substring(indexOf(Textareatags43[1])+11);
+}
+}
+else
+{
+with(Seiteninhalt43)
+{
+Tags43[Durchlauf43] = substring(indexOf(Tagklammern43[0]),indexOf(">")+1);
+Seiteninhalt43 = substring(indexOf(">")+1);
+}
+}
+Durchlauf43++;
+}
+
+Texte43[Durchlauf43] = Seiteninhalt43;
+Tags43[Durchlauf43] = "";
+
+var neuer_Seiteninhalt43 = "";
+for(var i=0;i<Texte43.length;i++)
+neuer_Seiteninhalt43 += Ersetzen43(Texte43[i],gesuchter_Text43)+Tags43[i];
+document.getElementsByTagName("body")[0].innerHTML = neuer_Seiteninhalt43;
+for(var i=0;i<Input_Inhalte43.length;i++)
+{
+document.getElementsByTagName("input")[i].value = Input_Inhalte43[i];
+if(document.getElementsByTagName("input")[i].type=="radio"||document.getElementsByTagName("input")[i].type=="checkbox")
+document.getElementsByTagName("input")[i].checked = Radio_ausgewaehlt43[i];
+}
+for(var i=0;i<Textarea_Inhalte43.length;i++)
+document.getElementsByTagName("textarea")[i].value = Textarea_Inhalte43[i];
+for(var i=0;i<Select_Index43.length;i++)
+document.getElementsByTagName("select")[i].selectedIndex = Select_Index43[i];
+document.Seite_durchsuchen_Formular43.gefundene_Woerter43.value = Treffer43;
+}
+}
+
+function Ersetzen43(Text43,Wort43)
+{
+var Suchtext43 = Text43;
+var Endtext43 = "";
+
+if((Wort43+"*").lastIndexOf("*")>0)
+{
+while(Suchtext43.indexOf(Wort43)>-1)
+{
+Treffer43++;
+with(Suchtext43)
+{
+Endtext43 += substring(0,indexOf(Wort43))+Tagklammern43[0]+'span style="background-color: #'+document.Seite_durchsuchen_Formular43.Markierung_fuer_Worte43.value+'">'+Wort43+Tagklammern43[0]+'/span>';
+Suchtext43 = substring(indexOf(Wort43)+(Wort43+"*").lastIndexOf("*"));
+}
+}
+}
+Endtext43 += Suchtext43;
+
+return Endtext43;
+}
+//-->
+</script>
+<form name="Seite_durchsuchen_Formular43" action="">
+<table border="0" width="auto">
+  <tr>
+    <td width="auto" align="center" colspan="2"><font face="Arial" size="3"><b>Search for specific words</b></font></td>
+  </tr>
+  <tr>
+    <td width="auto" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="auto" colspan="2">
+<script type="text/javascript">
+<!--
+
+if(!document.getElementsByTagName||!document.Seite_durchsuchen_Formular43.innerHTML)
+document.write(unescape('%3Cfont face="Arial" size="2" color="#FF0000">Your browser cannot run this Javascript%3C/font>').bold());
+//-->
+</script>
+    </td>
+  </tr>
+  <tr>
+    <td width="auto" align="right"><font face="Arial" size="2"><b>Search for:</b></font></td>
+    <td width="auto"><input type="text" name="gesuchter_Text43" value="" size="15"></td>
+  </tr>
+  <tr>
+    <td width="auto" align="right"><font face="Arial" size="2"><b>Hits:</b></font></td>
+    <td width="auto"><input type="text" name="gefundene_Woerter43" value="" size="5">Don't enter anything here.</td>
+  </tr>
+  <tr>
+    <td width="auto" align="right"><font face="Arial" size="2"><b>Label:</b></font></td>
+    <td width="auto">
+      <select name="Markierung_fuer_Worte43" size="1">
+        <option value="FFFFFF" style="color: #FFFFFF; background-color: #CCCCCC">white</option>
+        <option value="FFFF00" style="color: #FFFF00; background-color: #CCCCCC" selected>yellow</option>
+        <option value="FFCC00" style="color: #FFCC00">orange</option>
+        <option value="FF0000" style="color: #FF0000">red</option>
+        <option value="990000" style="color: #990000">darkred</option>
+        <option value="00FF00" style="color: #00FF00">green</option>
+        <option value="009900" style="color: #009900">darkgreen</option>
+        <option value="0000FF" style="color: #0000FF">blue</option>
+        <option value="000099" style="color: #000099">darkblue</option>
+        <option value="990099" style="color: #990099">purple</option>
+        <option value="CCCCCC" style="color: #CCCCCC">grey</option>
+        <option value="999999" style="color: #999999">darkgrey</option>
+        <option value="000000" style="color: #000000">black</option>
+      </select>
+    </td>
+  </tr>
+  <tr><p>
+    <td width="auto" colspan="2"><input type="button" value="Search" onclick="auf_Seite_suchen43()"></td>
+  </tr>
+</table>
+</form>
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>ProSearch 2 by RWtuts</b></center></div>
+		<p><div id="%id%_title"><center><i>Please note that this Stack only searches for text on the site its installed on - it doesn't search on your whole website!</i></center></div>
+	%[endif]%
+	
+
+<!-- End ProSearch Stack v2 by RWtuts -->

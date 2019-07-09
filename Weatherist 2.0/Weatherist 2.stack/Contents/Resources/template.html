@@ -1,0 +1,22 @@
+<!-- Weatherist Stack version 2.0
+	 Last changed: 21/03/16
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/weatherist
+	 RWtuts Support: http://www.rwtuts.net/support
+-->
+
+%[if !edit]%
+
+<iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="%id=format%://forecast.io/embed/#lat=%id=latitude%&lon=%id=longitude%&name=%id=cityname%&color=%id=color%&font=%id=font%&units=%id=units%"> </iframe>
+
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>Weatherist 2 by RWtuts</b></center></div>
+		<p><div id="%id%_title"><center><i>Configure this Stack by using the given Settings Display / HUD on the right.<p>You can find the latitude and longitude of your place by visiting <b>http://itouchmap.com/latlong.html</b> or by watching our video tutorial over here: <b>http://www.rwtuts.net/stacks/weatherist</b><p>Weatherist 2 is powered by forecast.io</i></center></div>
+	%[endif]%
+
+<!-- End Weatherist 2 Stack by RWtuts -->

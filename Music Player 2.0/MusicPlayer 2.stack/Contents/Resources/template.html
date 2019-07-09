@@ -1,0 +1,18 @@
+<!-- MusicPlayer Stack version 2.0 - Pure HTML5 
+	 Last changed: 10/16/15
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://rwtuts.net/stacks/musicplayer
+	 Marvin Niedt Support: http://www.rwtuts.net/support
+-->
+
+%[if !edit]%
+<audio src="%id=trackurl%" controls %id=autoplay% %id=loop%>
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>MusicPlayer 2 by RWtuts</b></center></div>
+		<p><div id="%id%_title"><center>Configure this stack by using the given Settings Display on the right.</center></div>
+	%[endif]%

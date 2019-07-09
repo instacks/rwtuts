@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.locktwo</string>
+	<key>title</key>
+	<string>Lock 2</string>
+	<key>subtitle</key>
+	<string>Prevent your visitors from downloading files on your site.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0.0</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Lock</string>
+		<string>Images</string>
+		<string>Text</string>
+		<string>secure</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,45 @@
+<!-- TumblrPic Stack version 1.1 - compatible with Stacks 2.x and major browsers
+	 Last changed: 05/15/15
+	 Stack Author: RWtuts
+	 Product Website and Info: http://rwtuts.net/stacks/tumblrpic
+	 Support: http://rwtuts.net/contact-form/index.php
+-->
+%[if !edit]%
+
+<div class='ji-tumblr-photos'><a id='ji-tumblr-url-tblr_widget-1' href=''><img border='0' style='margin:5px' id='ji-tumblr-photo-tblr_widget-1' src='' alt='' /></a><a id='ji-tumblr-url-tblr_widget-2' href=''><img border='0' style='margin:5px' id='ji-tumblr-photo-tblr_widget-2' src='' alt='' /></a><a id='ji-tumblr-url-tblr_widget-3' href=''><img border='0' style='margin:5px' id='ji-tumblr-photo-tblr_widget-3' src='' alt='' /></a><a id='ji-tumblr-url-tblr_widget-4' href=''><img border='0' style='margin:5px' id='ji-tumblr-photo-tblr_widget-4' src='' alt='' /></a><a id='ji-tumblr-url-tblr_widget-5' href=''><img border='0' style='margin:5px' id='ji-tumblr-photo-tblr_widget-5' src='' alt='' /></a><a id='ji-tumblr-url-tblr_widget-6' href=''><img border='0' style='margin:5px' id='ji-tumblr-photo-tblr_widget-6' src='' alt='' /></a><a id='ji-tumblr-url-tblr_widget-7' href=''><img border='0' style='margin:5px' id='ji-tumblr-photo-tblr_widget-7' src='' alt='' /></a><a id='ji-tumblr-url-tblr_widget-8' href=''><img border='0' style='margin:5px' id='ji-tumblr-photo-tblr_widget-8' src='' alt='' /></a><a id='ji-tumblr-url-tblr_widget-9' href=''><img border='0' style='margin:5px' id='ji-tumblr-photo-tblr_widget-9' src='' alt='' /></a><a id='ji-tumblr-url-tblr_widget-10' href=''><img border='0' style='margin:5px' id='ji-tumblr-photo-tblr_widget-10' src='' alt='' /></a>
+</div>
+<script type='text/javascript' src='http://%id=tblr-id%.tumblr.com/api/read/json?number=10&type=photo'></script>
+<script type='text/javascript'>
+document.getElementById('ji-tumblr-photo-tblr_widget-1').setAttribute('src', tumblr_api_read.posts[0]['photo-url-%id=size%']);
+document.getElementById('ji-tumblr-url-tblr_widget-1').setAttribute('href', tumblr_api_read.posts[0]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-tblr_widget-2').setAttribute('src', tumblr_api_read.posts[1]['photo-url-%id=size%']);
+document.getElementById('ji-tumblr-url-tblr_widget-2').setAttribute('href', tumblr_api_read.posts[1]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-tblr_widget-3').setAttribute('src', tumblr_api_read.posts[2]['photo-url-%id=size%']);
+document.getElementById('ji-tumblr-url-tblr_widget-3').setAttribute('href', tumblr_api_read.posts[2]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-tblr_widget-4').setAttribute('src', tumblr_api_read.posts[3]['photo-url-%id=size%']);
+document.getElementById('ji-tumblr-url-tblr_widget-4').setAttribute('href', tumblr_api_read.posts[3]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-tblr_widget-5').setAttribute('src', tumblr_api_read.posts[4]['photo-url-%id=size%']);
+document.getElementById('ji-tumblr-url-tblr_widget-5').setAttribute('href', tumblr_api_read.posts[4]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-tblr_widget-6').setAttribute('src', tumblr_api_read.posts[5]['photo-url-%id=size%']);
+document.getElementById('ji-tumblr-url-tblr_widget-6').setAttribute('href', tumblr_api_read.posts[5]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-tblr_widget-7').setAttribute('src', tumblr_api_read.posts[6]['photo-url-%id=size%']);
+document.getElementById('ji-tumblr-url-tblr_widget-7').setAttribute('href', tumblr_api_read.posts[6]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-tblr_widget-8').setAttribute('src', tumblr_api_read.posts[7]['photo-url-%id=size%']);
+document.getElementById('ji-tumblr-url-tblr_widget-8').setAttribute('href', tumblr_api_read.posts[7]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-tblr_widget-9').setAttribute('src', tumblr_api_read.posts[8]['photo-url-%id=size%']);
+document.getElementById('ji-tumblr-url-tblr_widget-9').setAttribute('href', tumblr_api_read.posts[8]['url-with-slug']);
+document.getElementById('ji-tumblr-photo-tblr_widget-10').setAttribute('src', tumblr_api_read.posts[9]['photo-url-%id=size%']);
+document.getElementById('ji-tumblr-url-tblr_widget-10').setAttribute('href', tumblr_api_read.posts[9]['url-with-slug']);
+</script>
+
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header">TumblrPic</div>
+		<p><div id="%id%_title"><center>Configure this stack by using the given Settings Display / HUD on the right.<p>Please be careful not to break any picture/photography copyright law(s) when the Tumblr blog you embed isn't yours.</center></div>
+	%[endif]%
+
+<!-- End TumblrPic Stack by RWtuts -->

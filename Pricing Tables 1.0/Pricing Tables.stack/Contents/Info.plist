@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.pricingtables</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/pricingtables/appcast.xml</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>Pricing Tables - Copyright 2017 RWtuts</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>Helvetica</string>
+			<key>group</key>
+			<string>Columns Styling</string>
+			<key>id</key>
+			<string>fontface</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Helvetica</string>
+					<key>value</key>
+					<string>Helvetica</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Aller</string>
+					<key>value</key>
+					<string>Aller</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Arial</string>
+					<key>value</key>
+					<string>Arial</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Times New Roman</string>
+					<key>value</key>
+					<string>Times New Roman</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Courier New</string>
+					<key>value</key>
+					<string>Courier New</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Museo Slab</string>
+					<key>value</key>
+					<string>Museo Slab</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Avenir</string>
+					<key>value</key>
+					<string>Avenir</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Futura</string>
+					<key>value</key>
+					<string>Futura</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Comic Sans MS</string>
+					<key>value</key>
+					<string>Comic Sans MS</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pacifico</string>
+					<key>value</key>
+					<string>Pacifico</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Font</string>
+			<key>toolTip</key>
+			<string>Customise the font of the pricing table.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>33,3</string>
+			<key>group</key>
+			<string>Columns Styling</string>
+			<key>id</key>
+			<string>tablewidth</string>
+			<key>title</key>
+			<string>Column Width</string>
+			<key>toolTip</key>
+			<string>Customise the width of the columns in percent.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>8</string>
+			<key>group</key>
+			<string>Columns Styling</string>
+			<key>id</key>
+			<string>padtables</string>
+			<key>title</key>
+			<string>Space (in px)</string>
+			<key>toolTip</key>
+			<string>Customise the space between the columns in pixels.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1</string>
+			<key>group</key>
+			<string>Columns Styling</string>
+			<key>id</key>
+			<string>borderwidth</string>
+			<key>title</key>
+			<string>Border Width</string>
+			<key>toolTip</key>
+			<string>Customise the border width of the columns in pixels.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FFFFFF</string>
+			<key>group</key>
+			<string>Columns Styling</string>
+			<key>id</key>
+			<string>tablebackgroundcolor</string>
+			<key>title</key>
+			<string>BG Color</string>
+			<key>toolTip</key>
+			<string>Customize the background color of the columns.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#FFFFFF</string>
+			<key>group</key>
+			<string>Columns Styling</string>
+			<key>id</key>
+			<string>bordercolor</string>
+			<key>title</key>
+			<string>Border Color</string>
+			<key>toolTip</key>
+			<string>Customize the border color of the columns.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#660099</string>
+			<key>group</key>
+			<string>Header Styling</string>
+			<key>id</key>
+			<string>headercolor1</string>
+			<key>title</key>
+			<string>Header Color 1</string>
+			<key>toolTip</key>
+			<string>Customize the header color of the first column.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#9a38d8</string>
+			<key>group</key>
+			<string>Header Styling</string>
+			<key>id</key>
+			<string>headercolor2</string>
+			<key>title</key>
+			<string>Header Color 2</string>
+			<key>toolTip</key>
+			<string>Customize the header color of the second column.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#660099</string>
+			<key>group</key>
+			<string>Header Styling</string>
+			<key>id</key>
+			<string>headercolor3</string>
+			<key>title</key>
+			<string>Header Color 3</string>
+			<key>toolTip</key>
+			<string>Customize the header color of the third column.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Header Styling</string>
+			<key>id</key>
+			<string>headerfontcolor</string>
+			<key>title</key>
+			<string>Font Color</string>
+			<key>toolTip</key>
+			<string>Customize the header font color of all columns.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>25</string>
+			<key>group</key>
+			<string>Header Styling</string>
+			<key>id</key>
+			<string>headerfontsize</string>
+			<key>title</key>
+			<string>Font Size</string>
+			<key>toolTip</key>
+			<string>Customise the header font size of all columns.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Price Styling</string>
+			<key>id</key>
+			<string>pricebackgroundcolor</string>
+			<key>title</key>
+			<string>Price Color</string>
+			<key>toolTip</key>
+			<string>Customise the background color of the prices.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>20</string>
+			<key>group</key>
+			<string>Price Styling</string>
+			<key>id</key>
+			<string>pricefontsize</string>
+			<key>title</key>
+			<string>Font Size</string>
+			<key>toolTip</key>
+			<string>Customise the prices font size of all columns.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#660099</string>
+			<key>group</key>
+			<string>Button Styling</string>
+			<key>id</key>
+			<string>buttonbackgroundcolor</string>
+			<key>title</key>
+			<string>Button Color</string>
+			<key>toolTip</key>
+			<string>Customise the background color of the buttons.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Button Styling</string>
+			<key>id</key>
+			<string>buttonfontcolor</string>
+			<key>title</key>
+			<string>Font Color</string>
+			<key>toolTip</key>
+			<string>Customise the font color of the buttons.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>18</string>
+			<key>group</key>
+			<string>Button Styling</string>
+			<key>id</key>
+			<string>buttonfontsize</string>
+			<key>title</key>
+			<string>Font Size</string>
+			<key>toolTip</key>
+			<string>Customise the button font size of all columns.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Standard</string>
+			<key>group</key>
+			<string>First Column Content</string>
+			<key>id</key>
+			<string>firstplanname</string>
+			<key>title</key>
+			<string>Title</string>
+			<key>toolTip</key>
+			<string>Customise the title/plan name of the first column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>$ 9.99 / month</string>
+			<key>group</key>
+			<string>First Column Content</string>
+			<key>id</key>
+			<string>firstprice</string>
+			<key>title</key>
+			<string>Price</string>
+			<key>toolTip</key>
+			<string>Customise the price of the first column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>10GB Storage</string>
+			<key>group</key>
+			<string>First Column Content</string>
+			<key>id</key>
+			<string>firstplanfirstdescr</string>
+			<key>title</key>
+			<string>Description 1</string>
+			<key>toolTip</key>
+			<string>Customise the first description line of the first column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>10 E-Mails</string>
+			<key>group</key>
+			<string>First Column Content</string>
+			<key>id</key>
+			<string>firstplanseconddescr</string>
+			<key>title</key>
+			<string>Description 2</string>
+			<key>toolTip</key>
+			<string>Customise the second description line of the first column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>10 Domains</string>
+			<key>group</key>
+			<string>First Column Content</string>
+			<key>id</key>
+			<string>firstplanthirddescr</string>
+			<key>title</key>
+			<string>Description 3</string>
+			<key>toolTip</key>
+			<string>Customise the third description line of the first column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>1GB Bandwith</string>
+			<key>group</key>
+			<string>First Column Content</string>
+			<key>id</key>
+			<string>firstplanfourthdescr</string>
+			<key>title</key>
+			<string>Description 4</string>
+			<key>toolTip</key>
+			<string>Customise the fourth description line of the first column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>cPanel included</string>
+			<key>group</key>
+			<string>First Column Content</string>
+			<key>id</key>
+			<string>firstplanfifthdescr</string>
+			<key>title</key>
+			<string>Description 5</string>
+			<key>toolTip</key>
+			<string>Customise the fifth description line of the first column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Basic Customer Support</string>
+			<key>group</key>
+			<string>First Column Content</string>
+			<key>id</key>
+			<string>firstplansixthdescr</string>
+			<key>title</key>
+			<string>Description 6</string>
+			<key>toolTip</key>
+			<string>Customise the sixth description line of the first column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>http://www.rwtuts.net</string>
+			<key>group</key>
+			<string>First Column Content</string>
+			<key>id</key>
+			<string>firstplanlink</string>
+			<key>title</key>
+			<string>Button Link</string>
+			<key>toolTip</key>
+			<string>Set the link for this button. The link must contain the leading http://</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Subscribe</string>
+			<key>group</key>
+			<string>First Column Content</string>
+			<key>id</key>
+			<string>firstplanbuttontext</string>
+			<key>title</key>
+			<string>Button Text</string>
+			<key>toolTip</key>
+			<string>Customise the text of the button.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Pro</string>
+			<key>group</key>
+			<string>Second Column Content</string>
+			<key>id</key>
+			<string>secondplanname</string>
+			<key>title</key>
+			<string>Title</string>
+			<key>toolTip</key>
+			<string>Customise the title/plan name of the second column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>$ 19.99 / month</string>
+			<key>group</key>
+			<string>Second Column Content</string>
+			<key>id</key>
+			<string>secondprice</string>
+			<key>title</key>
+			<string>Price</string>
+			<key>toolTip</key>
+			<string>Customise the price of the second column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>20GB Storage</string>
+			<key>group</key>
+			<string>Second Column Content</string>
+			<key>id</key>
+			<string>secondplanfirstdescr</string>
+			<key>title</key>
+			<string>Description 1</string>
+			<key>toolTip</key>
+			<string>Customise the first description line of the second column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>20 E-Mails</string>
+			<key>group</key>
+			<string>Second Column Content</string>
+			<key>id</key>
+			<string>secondplanseconddescr</string>
+			<key>title</key>
+			<string>Description 2</string>
+			<key>toolTip</key>
+			<string>Customise the second description line of the second column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>20 Domains</string>
+			<key>group</key>
+			<string>Second Column Content</string>
+			<key>id</key>
+			<string>secondplanthirddescr</string>
+			<key>title</key>
+			<string>Description 3</string>
+			<key>toolTip</key>
+			<string>Customise the third description line of the second column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>5GB Bandwith</string>
+			<key>group</key>
+			<string>Second Column Content</string>
+			<key>id</key>
+			<string>secondplanfourthdescr</string>
+			<key>title</key>
+			<string>Description 4</string>
+			<key>toolTip</key>
+			<string>Customise the fourth description line of the second column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>cPanel included</string>
+			<key>group</key>
+			<string>Second Column Content</string>
+			<key>id</key>
+			<string>secondplanfifthdescr</string>
+			<key>title</key>
+			<string>Description 5</string>
+			<key>toolTip</key>
+			<string>Customise the fifth description line of the second column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Basic Customer Support</string>
+			<key>group</key>
+			<string>Second Column Content</string>
+			<key>id</key>
+			<string>secondplansixthdescr</string>
+			<key>title</key>
+			<string>Description 6</string>
+			<key>toolTip</key>
+			<string>Customise the sixth description line of the second column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>http://www.rwtuts.net</string>
+			<key>group</key>
+			<string>Second Column Content</string>
+			<key>id</key>
+			<string>secondplanlink</string>
+			<key>title</key>
+			<string>Button Link</string>
+			<key>toolTip</key>
+			<string>Set link for this button. The link must contain the leading http://</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Subscribe</string>
+			<key>group</key>
+			<string>Second Column Content</string>
+			<key>id</key>
+			<string>secondplanbuttontext</string>
+			<key>title</key>
+			<string>Button Text</string>
+			<key>toolTip</key>
+			<string>Customise the text of the button.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Premium</string>
+			<key>group</key>
+			<string>Third Column Content</string>
+			<key>id</key>
+			<string>thirdplanname</string>
+			<key>title</key>
+			<string>Title</string>
+			<key>toolTip</key>
+			<string>Customise the title/plan name of the third column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>$ 29.99 / month</string>
+			<key>group</key>
+			<string>Third Column Content</string>
+			<key>id</key>
+			<string>thirdprice</string>
+			<key>title</key>
+			<string>Price</string>
+			<key>toolTip</key>
+			<string>Customise the price of the third column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>30GB Storage</string>
+			<key>group</key>
+			<string>Third Column Content</string>
+			<key>id</key>
+			<string>thirdplanfirstdescr</string>
+			<key>title</key>
+			<string>Description 1</string>
+			<key>toolTip</key>
+			<string>Customise the first description line of the third column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>30 E-Mails</string>
+			<key>group</key>
+			<string>Third Column Content</string>
+			<key>id</key>
+			<string>thirdplanseconddescr</string>
+			<key>title</key>
+			<string>Description 2</string>
+			<key>toolTip</key>
+			<string>Customise the second description line of the third column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>30 Domains</string>
+			<key>group</key>
+			<string>Third Column Content</string>
+			<key>id</key>
+			<string>thirdplanthirddescr</string>
+			<key>title</key>
+			<string>Description 3</string>
+			<key>toolTip</key>
+			<string>Customise the third description line of the third column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>10GB Bandwith</string>
+			<key>group</key>
+			<string>Third Column Content</string>
+			<key>id</key>
+			<string>thirdplanfourthdescr</string>
+			<key>title</key>
+			<string>Description 4</string>
+			<key>toolTip</key>
+			<string>Customise the fourth description line of the third column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>cPanel included</string>
+			<key>group</key>
+			<string>Third Column Content</string>
+			<key>id</key>
+			<string>thirdplanfifthdescr</string>
+			<key>title</key>
+			<string>Description 5</string>
+			<key>toolTip</key>
+			<string>Customise the fifth description line of the third column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Priority Customer Support</string>
+			<key>group</key>
+			<string>Third Column Content</string>
+			<key>id</key>
+			<string>thirdplansixthdescr</string>
+			<key>title</key>
+			<string>Description 6</string>
+			<key>toolTip</key>
+			<string>Customise the sixth description line of the third column.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>http://www.rwtuts.net</string>
+			<key>group</key>
+			<string>Third Column Content</string>
+			<key>id</key>
+			<string>thirdplanlink</string>
+			<key>title</key>
+			<string>Button Link</string>
+			<key>toolTip</key>
+			<string>Set link for this button. The link must contain the leading http://</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Subscribe</string>
+			<key>group</key>
+			<string>Third Column Content</string>
+			<key>id</key>
+			<string>thirdplanbuttontext</string>
+			<key>title</key>
+			<string>Button Text</string>
+			<key>toolTip</key>
+			<string>Customise the text of the button.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Add responsive and customisable pricing tables to your website.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Pricing Tables</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Pricing</string>
+		<string>Tables</string>
+		<string>View</string>
+		<string>Compare</string>
+		<string>Responsive</string>
+		<string>Customisable</string>
+		<string>Plans</string>
+		<string>RWtuts</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.pdfviewerthree</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0.1</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/pdfviewer/appcast.xml</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>PDF Viewer 3 - Copyright 2017 RWtuts</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>http://www.rwtuts.net/files/lorem.pdf</string>
+			<key>group</key>
+			<string>PDF Viewer 3 Customisation</string>
+			<key>id</key>
+			<string>url</string>
+			<key>title</key>
+			<string>PDF URL</string>
+			<key>toolTip</key>
+			<string>Enter the PDF URL, the file must be stored on an active server and must be visible to the public</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>http://</string>
+			<key>group</key>
+			<string>PDF Viewer 3 Customisation</string>
+			<key>id</key>
+			<string>connection</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Yes</string>
+					<key>value</key>
+					<string>https://</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>No</string>
+					<key>value</key>
+					<string>http://</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>SSL?</string>
+			<key>toolTip</key>
+			<string>If your websites uses a SSL certificate and is being accessed using https:// select Yes. If you're just using http:// select No.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>100</string>
+			<key>group</key>
+			<string>PDF Viewer 3 Customisation</string>
+			<key>id</key>
+			<string>width</string>
+			<key>max</key>
+			<string>100</string>
+			<key>min</key>
+			<string>10</string>
+			<key>ticks</key>
+			<string>10</string>
+			<key>title</key>
+			<string>Viewer Width</string>
+			<key>toolTip</key>
+			<string>100% is responsive</string>
+			<key>type</key>
+			<string>slider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>800</string>
+			<key>group</key>
+			<string>PDF Viewer 3 Customisation</string>
+			<key>id</key>
+			<string>height</string>
+			<key>title</key>
+			<string>Viewer Height</string>
+			<key>toolTip</key>
+			<string>Height in px (pixels)</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Responsively embed a PDF file on your website.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>PDF Viewer 3</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>PDF</string>
+		<string>Viewer</string>
+		<string>Embed</string>
+		<string>Document</string>
+		<string>Responsive</string>
+		<string>RWtuts</string>
+	</array>
+</dict>
+</plist>

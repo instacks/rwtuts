@@ -1,0 +1,90 @@
+<!-- Countdown Stack version 1.0 - Custom Javascript 
+	 Last changed: 01/23/15
+	 Stack Author: RWtuts.net
+	 Customer Support: support@rwtuts.net
+-->
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header">Countdown</div>
+		<p><div id="%id%_title"><center>Configure this stack by using the given Settings Display / HUD on the right.</center></div>
+	%[endif]%
+
+%[if !edit]%
+<script language="JavaScript">
+      
+      var jahr=%id=year%, monat=%id=month%, tag=%id=day%, stunde=%id=hour%, minute=%id=minute%, sekunde=%id=second%;
+      var zielDatum=new Date(jahr,monat-1,tag,stunde,minute,sekunde);
+
+      function countdown() {
+        startDatum=new Date(); 
+
+                if(startDatum<zielDatum)  {
+
+          var jahre=0, monate=0, tage=0, stunden=0, minuten=0, sekunden=0;
+
+          
+          while(startDatum<zielDatum) {
+            jahre++;
+            startDatum.setFullYear(startDatum.getFullYear()+1);
+          }
+          startDatum.setFullYear(startDatum.getFullYear()-1);
+          jahre--;
+
+          
+          while(startDatum<zielDatum) {
+            monate++;
+            startDatum.setMonth(startDatum.getMonth()+1);
+          }
+          startDatum.setMonth(startDatum.getMonth()-1);
+          monate--;
+
+          
+          while(startDatum.getTime()+(24*60*60*1000)<zielDatum) {
+            tage++;
+            startDatum.setTime(startDatum.getTime()+(24*60*60*1000));
+          }
+
+          
+          stunden=Math.floor((zielDatum-startDatum)/(60*60*1000));
+          startDatum.setTime(startDatum.getTime()+stunden*60*60*1000);
+
+          
+          minuten=Math.floor((zielDatum-startDatum)/(60*1000));
+          startDatum.setTime(startDatum.getTime()+minuten*60*1000);
+
+          
+          sekunden=Math.floor((zielDatum-startDatum)/1000);
+
+          
+          (jahre!=1)?jahre=jahre+" years,  ":jahre=jahre+" year,  ";
+          (monate!=1)?monate=monate+" months,  ":monate=monate+" months,  ";
+          (tage!=1)?tage=tage+" days,  ":tage=tage+" day,  ";
+          (stunden!=1)?stunden=stunden+" hours,  ":stunden=stunden+" hour,  ";
+          (minuten!=1)?minuten=minuten+" minutes  and  ":minuten=minuten+" minute  and  ";
+          if(sekunden<10) sekunden="0"+sekunden;
+          (sekunden!=1)?sekunden=sekunden+" seconds":sekunden=sekunden+" second";
+
+          document.countdownform.countdowninput.value=
+              jahre+monate+tage+stunden+minuten+sekunden;
+
+          setTimeout('countdown()',200);
+        }
+        
+        else document.countdownform.countdowninput.value=
+            "0 years,  0 months,  0 days,  0 hours,  0 minutes  und  00 seconds";
+      }
+    </script>
+
+  <body onload="countdown()">
+    <form name="countdownform">
+      <p>
+        <input size="75" name="countdowninput">
+      </p>
+    </form>
+%[endif]%
+
+<!-- End Countdown Stack by RWtuts -->
+

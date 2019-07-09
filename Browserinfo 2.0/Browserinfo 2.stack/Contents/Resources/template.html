@@ -1,0 +1,173 @@
+<!-- Browserinfo Stack version 2.0
+	 Last changed: 01/12/16
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/browserinfo
+	 RWtuts Support: http://rwtuts.net/contact-form/index.php
+-->
+
+
+<table border="0" width="auto">
+  <tr>
+    <td width="auto" align="center"><font face="Arial" size="3"><b><i>Browserinfo</i></b></font></td>
+  </tr>
+  <tr>
+    <td width="auto">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="auto">
+      <table border="0" width="auto" style="border: 1px solid #CCCCCC">
+        <tr>
+          <td width="auto" colspan="2"><font face="Arial" size="2"><b><u>General</u></b></font></td>
+        </tr>
+        <tr>
+          <td width="auto" align="right"><font face="Arial" size="2"><b>Browser:</b></font></td>
+          <td width="auto">
+<script type="text/javascript">
+<!--
+
+var Benutzeragent14 = navigator.userAgent.toLowerCase();
+var Browsernamen14 = new Array("Konqueror","SeaMonkey","Firebird","Galeon","Epiphany","Camino","OmniWeb","Chrome","Iron","Lynx","amaya","iCab","Netscape","Navigator","MSIE","Firefox","Opera","Safari","rv:","Mozilla");
+var Namensindex14 = -1;
+
+for(var i=0;i<19;i++)
+{
+if(Benutzeragent14.indexOf(Browsernamen14[i].toLowerCase())>-1)
+{
+Namensindex14 = i;
+break;
+}
+}
+
+document.write(unescape('%3Cfont face="Arial" size="2">'+(Namensindex14<0 ? "unknown":(Namensindex14==13 ? "Netscape":(Namensindex14==14 ? "Internet Explorer":(Namensindex14==18 ? "Mozilla":Browsernamen14[Namensindex14]))))+'%3C/font>'));
+//-->
+</script></td>
+        </tr>
+        <tr>
+          <td width="auto" align="right"><font face="Arial" size="2"><b>Browser-Version:</b></font></td>
+          <td width="auto">
+<script type="text/javascript">
+<!--
+function Versionsausgabe14(Text14)
+{
+if(parseInt(Text14.charAt(0))+""=="NaN")
+Text14 = Text14.substring(1);
+
+if(parseInt(Text14.charAt(0))+""!="NaN")
+{
+var i = 0;
+
+while(parseInt(Text14.charAt(i))+""!="NaN"||Text14.charAt(i)==".")
+i++;
+
+Text14 = Text14.substring(0,i);
+}
+if(parseInt(Text14)+""=="NaN")
+Text14 = "unknown";
+
+return Text14;
+}
+
+with(Benutzeragent14)
+{
+if(indexOf("version")>-1)
+Browsernamen14[Namensindex14] = "version";
+
+document.write(unescape('%3Cfont face="Arial" size="2">'+(Namensindex14>-1 ? Versionsausgabe14(substring(indexOf(Browsernamen14[Namensindex14].toLowerCase())+(Browsernamen14[Namensindex14]+"*").indexOf("*"))):"unknown")+'%3C/font>'));
+}
+//-->
+</script></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="auto">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="auto">
+      <table border="0" width="auto" style="border: 1px solid #CCCCCC">
+        <tr>
+          <td width="auto" colspan="2"><font face="Arial" size="2"><b><u>Browser-specific info:</u></b></font></td>
+        </tr>
+        <tr>
+          <td width="auto" align="right"><font face="Arial" size="2"><b>Browsername:</b></font></td>
+          <td width="auto">
+<script type="text/javascript">
+<!--
+document.write(unescape('%3Cfont face="Arial" size="2">'+navigator.appName+'%3C/font>'));
+//-->
+</script></td>
+        </tr>
+        <tr>
+          <td width="auto" align="right"><font face="Arial" size="2"><b>Nickname:</b></font></td>
+          <td width="auto">
+<script type="text/javascript">
+<!--
+document.write(unescape('%3Cfont face="Arial" size="2">'+navigator.appCodeName+'%3C/font>'));
+//-->
+</script></td>
+        </tr>
+        <tr>
+          <td width="auto" align="right"><font face="Arial" size="2"><b>Mozilla-Version:</b></font></td>
+          <td width="auto">
+<script type="text/javascript">
+<!--
+with(Benutzeragent14)
+document.write(unescape('%3Cfont face="Arial" size="2">'+(indexOf("mozilla")>-1 ? Versionsausgabe14(substring(indexOf("mozilla")+7)):"unknown")+'%3C/font>'));
+//-->
+</script></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="auto">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="auto">
+      <table border="0" width="auto" style="border: 1px solid #CCCCCC">
+        <tr>
+          <td width="auto" colspan="2"><font face="Arial" size="2"><b><u>Details:</u></b></font></td>
+        </tr>
+        <tr>
+          <td width="auto" align="right" valign="top"><font face="Arial" size="2"><b>Cookies enabled:</b></font></td>
+          <td width="auto">
+<script type="text/javascript">
+<!--
+document.write(unescape('%3Cfont face="Arial" size="2">'+(navigator.cookieEnabled||navigator.cookieEnabled==false ? (navigator.cookieEnabled ? "Yes":"Nope"):"Your browser cannot access this information.")+'%3C/font>'));
+//-->
+</script></td>
+        </tr>
+        <tr>
+          <td width="auto" align="right" valign="top"><font face="Arial" size="2"><b>Browserlanguage:</b></font></td>
+          <td width="auto">
+<script type="text/javascript">
+<!--
+document.write(unescape('%3Cfont face="Arial" size="2">'+(navigator.language ? navigator.language:"Your browser cannot access this information.")+'%3C/font>'));
+//-->
+</script></td>
+        </tr>
+        <tr>
+          <td width="auto" align="right" valign="top"><font face="Arial" size="2"><b>Operating System:</b></font></td>
+          <td width="auto">
+<script type="text/javascript">
+<!--
+document.write(unescape('%3Cfont face="Arial" size="2">'+(navigator.platform ? navigator.platform:"Your browser cannot access this information.")+'%3C/font>'));
+//-->
+</script></td>
+        </tr>
+        <tr>
+          <td width="auto" align="right" valign="top"><font face="Arial" size="2"><b>User-Agent:</b></font></td>
+          <td width="auto">
+<script type="text/javascript">
+<!--
+document.write(unescape('%3Cfont face="Arial" size="2">'+navigator.userAgent+'%3C/font>'));
+//-->
+</script></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+
+<!-- End Browserinfo 2 Stack by RWtuts -->

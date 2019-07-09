@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.marqueetwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0.1</string>
+	<key>CFBundleVersion</key>
+	<string>2010</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/marquee/appcast.xml</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>Marquee 2 - Copyright 2017 RWtuts</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>Enter Text Here</string>
+			<key>id</key>
+			<string>text</string>
+			<key>title</key>
+			<string>Text</string>
+			<key>toolTip</key>
+			<string>Enter the text that you want to display with the Marquee Stack.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Enter Hyperlink Here</string>
+			<key>id</key>
+			<string>hyperlink</string>
+			<key>title</key>
+			<string>Link</string>
+			<key>toolTip</key>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>-1</string>
+			<key>id</key>
+			<string>loop</string>
+			<key>title</key>
+			<string>Loop</string>
+			<key>toolTip</key>
+			<string>Sets the number of times the marquee will scroll. If no value is specified, the default value is -1, which means the marquee will scroll continuously.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>id</key>
+			<string>bgcolor</string>
+			<key>title</key>
+			<string>Background Color</string>
+			<key>toolTip</key>
+			<string>Customize the background color of the marquee animation.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>15</string>
+			<key>id</key>
+			<string>scroll_amount</string>
+			<key>max</key>
+			<string>100</string>
+			<key>min</key>
+			<string>1</string>
+			<key>ticks</key>
+			<string>5</string>
+			<key>title</key>
+			<string>Animation Speed</string>
+			<key>toolTip</key>
+			<string>Define the animation speed of your text. Higher than 1 means that it's faster.</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>units</key>
+			<string>ms</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>left</string>
+			<key>group</key>
+			<string>Scroll Direction</string>
+			<key>id</key>
+			<string>direction</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Left</string>
+					<key>value</key>
+					<string>left</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Right</string>
+					<key>value</key>
+					<string>right</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Scroll Direction</string>
+			<key>toolTip</key>
+			<string>change the direction of the marquee animation. You can choose between left and right.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>alternate</string>
+			<key>group</key>
+			<string>Animation Style</string>
+			<key>id</key>
+			<string>style</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Scroll</string>
+					<key>value</key>
+					<string>scroll</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Bounce</string>
+					<key>value</key>
+					<string>alternate</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Animation Style</string>
+			<key>toolTip</key>
+			<string>change the style of the marquee animation. You can choose between scrolling and bouncing.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Adds a nice marquee effect to specific headlines on your site.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Marquee 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Marquee</string>
+		<string>Animation</string>
+		<string>Headline</string>
+		<string>Stack</string>
+		<string>RWtuts</string>
+	</array>
+</dict>
+</plist>

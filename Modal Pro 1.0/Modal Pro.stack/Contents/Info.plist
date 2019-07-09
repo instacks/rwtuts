@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.modalpro</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>Sample text for the header section</string>
+			<key>group</key>
+			<string>Header Section</string>
+			<key>id</key>
+			<string>header-content</string>
+			<key>title</key>
+			<string>Content</string>
+			<key>toolTip</key>
+			<string>Add content to the header section, HTML is not allowed.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#6518b8</string>
+			<key>group</key>
+			<string>Header Section</string>
+			<key>id</key>
+			<string>bgcolor_header</string>
+			<key>title</key>
+			<string>BG Color</string>
+			<key>toolTip</key>
+			<string>Customize the background color of the header section.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Header Section</string>
+			<key>id</key>
+			<string>textcolor_header</string>
+			<key>title</key>
+			<string>Font Color</string>
+			<key>toolTip</key>
+			<string>Customize the font/text color of the header section.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>5</string>
+			<key>group</key>
+			<string>Header Section</string>
+			<key>id</key>
+			<string>header-size</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>1 (Tiny)</string>
+					<key>value</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>2 (Very Small)</string>
+					<key>value</key>
+					<string>2</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>3 (Small)</string>
+					<key>value</key>
+					<string>3</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>4 (Medium)</string>
+					<key>value</key>
+					<string>4</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>5 (Large)</string>
+					<key>value</key>
+					<string>5</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>6 (Very Large)</string>
+					<key>value</key>
+					<string>6</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>7 (Huge)</string>
+					<key>value</key>
+					<string>7</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Text Size</string>
+			<key>toolTip</key>
+			<string>Customize the size of the header text.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Sample text for the content section</string>
+			<key>group</key>
+			<string>Content Section</string>
+			<key>id</key>
+			<string>body-content</string>
+			<key>title</key>
+			<string>Content</string>
+			<key>toolTip</key>
+			<string>Add content to the content section, HTML is allowed.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Content Section</string>
+			<key>id</key>
+			<string>bgcolor_content</string>
+			<key>title</key>
+			<string>BG Color</string>
+			<key>toolTip</key>
+			<string>Customize the background color of the content section.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#000000</string>
+			<key>group</key>
+			<string>Content Section</string>
+			<key>id</key>
+			<string>fontcolor_content</string>
+			<key>title</key>
+			<string>Font Color</string>
+			<key>toolTip</key>
+			<string>Customize the font/text color of the content section.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Sample text for the footer section</string>
+			<key>group</key>
+			<string>Footer Section</string>
+			<key>id</key>
+			<string>footer-content</string>
+			<key>title</key>
+			<string>Content</string>
+			<key>toolTip</key>
+			<string>Add content to the footer section, HTML is not allowed.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#380864</string>
+			<key>group</key>
+			<string>Footer Section</string>
+			<key>id</key>
+			<string>bgcolor_footer</string>
+			<key>title</key>
+			<string>BG Color</string>
+			<key>toolTip</key>
+			<string>Customize the background color of the footer section.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Footer Section</string>
+			<key>id</key>
+			<string>textcolor_footer</string>
+			<key>title</key>
+			<string>Font Color</string>
+			<key>toolTip</key>
+			<string>Customize the font/text color of the footer section.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>3</string>
+			<key>group</key>
+			<string>Footer Section</string>
+			<key>id</key>
+			<string>footer-size</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>1 (Tiny)</string>
+					<key>value</key>
+					<string>1</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>2 (Very Small)</string>
+					<key>value</key>
+					<string>2</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>3 (Small)</string>
+					<key>value</key>
+					<string>3</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>4 (Medium)</string>
+					<key>value</key>
+					<string>4</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>5 (Large)</string>
+					<key>value</key>
+					<string>5</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>6 (Very Large)</string>
+					<key>value</key>
+					<string>6</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>7 (Huge)</string>
+					<key>value</key>
+					<string>7</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Text Size</string>
+			<key>toolTip</key>
+			<string>Customize the size of the footer text.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Helvetica</string>
+			<key>group</key>
+			<string>Other Settings</string>
+			<key>id</key>
+			<string>font-face</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Helvetica</string>
+					<key>value</key>
+					<string>Helvetica</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Aller</string>
+					<key>value</key>
+					<string>Aller</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Arial</string>
+					<key>value</key>
+					<string>Arial</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Times New Roman</string>
+					<key>value</key>
+					<string>Times New Roman</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Courier New</string>
+					<key>value</key>
+					<string>Courier New</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Museo Slab</string>
+					<key>value</key>
+					<string>Museo Slab</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Avenir</string>
+					<key>value</key>
+					<string>Avenir</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Futura</string>
+					<key>value</key>
+					<string>Futura</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Comic Sans MS</string>
+					<key>value</key>
+					<string>Comic Sans MS</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Pacifico</string>
+					<key>value</key>
+					<string>Pacifico</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Font</string>
+			<key>toolTip</key>
+			<string>Customize the font of the modal.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>#ffffff</string>
+			<key>group</key>
+			<string>Other Settings</string>
+			<key>id</key>
+			<string>closebutton-color</string>
+			<key>title</key>
+			<string>Close Button Color</string>
+			<key>toolTip</key>
+			<string>Customize the color of the close button.</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>Open Modal</string>
+			<key>group</key>
+			<string>Other Settings</string>
+			<key>id</key>
+			<string>button-text</string>
+			<key>title</key>
+			<string>Button Text</string>
+			<key>toolTip</key>
+			<string>Customize the text of the button which opens the modal</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>helpURL</key>
+	<string>http://www.rwtuts.net/stacks/modalpro</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Embed customizable flat modals on your website.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Modal Pro</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Modal</string>
+		<string>Form</string>
+		<string>Popup</string>
+		<string>Notification</string>
+		<string>Alert</string>
+		<string>Pro</string>
+		<string>Customize</string>
+		<string>RWtuts</string>
+		<string>Retina</string>
+		<string>Responsive</string>
+	</array>
+</dict>
+</plist>

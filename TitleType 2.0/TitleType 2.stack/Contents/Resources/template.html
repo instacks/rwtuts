@@ -1,0 +1,55 @@
+<!-- TitleType Stack version 2.0
+	 Last changed: 03/06/16
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/titletype
+	 Marvin Niedt Support: http://www.rwtuts.net/support
+-->
+
+%[if !edit]%
+<script type="text/javascript">
+<!--
+
+var Titel37 = window.parent.document.title;
+var Titeldarstellung37 = "";
+var ZeichenIndex37 = 0;
+var Durchlaufnummer37 = 0;
+
+function Titel_schreiben37()
+{
+Titeldarstellung37 = Titeldarstellung37+Titel37.charAt(ZeichenIndex37);
+ZeichenIndex37++;
+
+window.parent.document.title = Titeldarstellung37;
+Durchlaufnummer37 = window.setTimeout("Titel_schreiben37()",250);
+
+if(ZeichenIndex37>=(Titel37+"*").lastIndexOf("*"))
+{
+ZeichenIndex37 = 0;
+window.clearTimeout(Durchlaufnummer37);
+}
+}
+
+function Titel_schreiben_stop37()
+{
+window.clearTimeout(Durchlaufnummer37);
+window.parent.document.title = Titel37;
+}
+Titel_schreiben37();
+
+document.body.onunload = Titel_schreiben_stop37;
+//-->
+</script>
+
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>TitleType 2 by RWtuts</b></center></div>
+		</center>
+	%[endif]%
+
+
+<!-- End TitleType 2 Stack by RWtuts -->
+

@@ -1,0 +1,21 @@
+<!-- Reddit Stack version 1.0 - Custom Javascript 
+	 Last changed: 01/20/14
+	 Stack Author: Marvin Niedt / RWtuts
+	 Stack Website and Info: http://rwtuts.net/stacks/reddit
+	 Marvin Niedt Support: http://support.rwtuts.net/
+-->
+
+%[if !edit]%
+<script src="http://www.reddit.com/user/%id=username%/submitted.embed?limit=%id=amount%&sort=%id=sort%" type="text/javascript"></script>
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header">Reddit</div>
+		<p><div id="%id%_title"><center>Configure this stack by using the given Settings Display.</center></div>
+	%[endif]%
+	
+<!-- End Reddit Stack -->
+

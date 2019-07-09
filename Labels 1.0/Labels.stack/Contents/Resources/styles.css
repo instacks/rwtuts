@@ -1,0 +1,19 @@
+/* Stylesheet for Labels Stack v.1.0 by RWtuts - last edited: 27.04.17 */
+
+#%id% .label {
+	display: inline-block;
+    padding: 0.25em 0.4em;
+    font-size: %id=font_size%;
+    font-weight: %id=font_bold%;
+    font-style: %id=font_italic%;
+    line-height: %id=label_height%;
+    color: %id=font_color%;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: %id=border_radius%px;
+    border: %id=border_size%px %id=border_style% %id=border_color%;
+    margin-bottom: 0.5rem;
+    background-color: %id=bckgr_color%;
+    font-family: '%id=font_face%';
+}

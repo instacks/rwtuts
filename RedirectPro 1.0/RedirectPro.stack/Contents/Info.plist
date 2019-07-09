@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.redirectpro</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1000</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/redirectpro/appcast.xml</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>dsa_pub.pem</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>RedirectPro - Copyright 2017 RWtuts</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>http://www.rwtuts.net/</string>
+			<key>group</key>
+			<string>RedirectPro Customisation</string>
+			<key>id</key>
+			<string>rp_url</string>
+			<key>title</key>
+			<string>Redirect URL</string>
+			<key>toolTip</key>
+			<string>Enter the URL you'd like to redirect/forward the user to</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>RedirectPro Customisation</string>
+			<key>type</key>
+			<string>divider</string>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>RedirectPro Customisation</string>
+			<key>title</key>
+			<string>Set up a delay, defined in milliseconds. For example, by entering a value of 5000, the Stack will</string>
+			<key>type</key>
+			<string>info</string>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>RedirectPro Customisation</string>
+			<key>title</key>
+			<string>redirect after 5 seconds. Set the value to 0 if you want to redirect instantly.</string>
+			<key>type</key>
+			<string>info</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>5000</string>
+			<key>group</key>
+			<string>RedirectPro Customisation</string>
+			<key>id</key>
+			<string>rp_delay</string>
+			<key>title</key>
+			<string>Delay (ms)</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>helpURL</key>
+	<string>http://www.rwtuts.net/stacks/redirectpro</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Easily redirect your site visitor to another site with an optional delay.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>RedirectPro</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Redirect</string>
+		<string>Forward</string>
+		<string>Pro</string>
+		<string>Delay</string>
+		<string>Seconds</string>
+		<string>HTML</string>
+		<string>Site</string>
+		<string>Page</string>
+		<string>RWtuts</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.tumblrpic</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>RWtuts</string>
+			<key>id</key>
+			<string>tblr-id</string>
+			<key>title</key>
+			<string>Tumblr Name</string>
+			<key>toolTip</key>
+			<string>Enter the name of the Tumblr blog you'd like to display images from</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>100</string>
+			<key>group</key>
+			<string>TumblrPic Customization</string>
+			<key>id</key>
+			<string>size</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>75</string>
+					<key>value</key>
+					<string>75</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>100</string>
+					<key>value</key>
+					<string>100</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>250</string>
+					<key>value</key>
+					<string>250</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>400</string>
+					<key>value</key>
+					<string>400</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>500</string>
+					<key>value</key>
+					<string>500</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Image Size</string>
+			<key>toolTip</key>
+			<string>Change the sizes of the images in pixel (px)</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>Marvin Niedt</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Embed a simple set of images from a Tumblr blog of your choice.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>TumblrPic</string>
+</dict>
+</plist>

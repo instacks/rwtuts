@@ -1,0 +1,31 @@
+<!-- Tender Stack version 1.0 - Custom Javascript 
+	 Last changed: 11/29/12
+	 Stack Author: Marvin Niedt
+	 Stack Website and Info: http://rwtuts.net/stacks/
+	 Marvin Niedt Support: http://support.rwtuts.net/
+-->
+
+%[if !edit]%
+<script type="text/javascript" charset="utf-8">
+  Tender = {
+    title: '%id=disc_title%',          /* prefilled subject for the discussion */
+    body: '%id=disc_content%',            /* prefilled body for the discussion */
+    hide_discussion: %id=disc_show%,   /* hide the discussions tab. */
+    hide_kb: %id=kb_show%,           /* hide the knowledge base tab */
+    category: '%id=category_select%',   /* default to 'questions' category - set this to a category permalink */
+
+    sso: "unique-sso-token-of-current-user",
+    widgetToggles: [document.getElementById('help')]
+  }
+</script>
+<script src="http://%id=tender_id%/tender_widget.js?location=%id=widget_location%" type="text/javascript"></script>
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header">Tender</div>
+		<p><div id="%id%_title"><center>Configure this stack by using the given Settings Display.<p>The widget doesn't work properly in Preview mode, please test it in your favorite browser.</center></div>
+	%[endif]%
+

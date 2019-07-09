@@ -1,0 +1,81 @@
+<!-- ImageHide Stack version 2.0
+	 Last changed: 01/23/16
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/imagehide
+	 Marvin Niedt Support: http://www.rwtuts.net/support
+-->
+
+%[if !edit]%
+<script language="JavaScript"> 
+
+<!--
+
+var pic = true;
+var status = "visible";
+
+function HidePic()
+{
+    var i = 0;
+
+    if(pic)
+    {
+        status = "hidden";
+        document.getElementById("Send").value = "Show Pictures";
+        pic = false;
+    }
+    else
+    {
+        status = "visible";
+        document.getElementById("Send").value = "Hide Pictures";
+        pic = true;
+    }
+
+    while(document.getElementsByTagName("img")[i])
+    {
+        document.getElementsByTagName("img")[i].style.visibility = status;
+
+        i = i + 1;
+    }
+
+    return true;
+}
+
+-->
+</script>
+
+<style type="text/css" media="screen">
+ 
+.rwtutsstyle {
+  color: %id=fontcolor%;
+  background: %id=bgcolor%;
+  font-weight: %id=fontstyle%;
+  border: %id=borderpx%px %id=borderstyle% %id=bordercolor%;
+}
+ 
+.rwtutsstyle:hover {
+  color: %id=hoverfontcolor%;
+  background: %id=hoverbgcolor%;
+}
+
+.rwtutsstyle:active {
+  color: %id=activefontcolor%;
+  background: %id=activebgcolor%;
+}
+
+</style>
+
+<p><input id="Send" onClick="javascript:HidePic();" class="rwtutsstyle" type="submit" value="Hide Picture(s)"></p>
+
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>ImageHide 2 by RWtuts</b></center></div>
+		<p><div id="%id%_title"><center><i>Configure this Stack by using the Inspector mode on the right.</i></center></div>
+	%[endif]%
+
+
+<!-- End ImageHide 2 Stack by RWtuts -->
+

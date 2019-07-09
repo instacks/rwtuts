@@ -1,0 +1,33 @@
+<!-- Lock Stack version 2.0
+	 Last changed: 09/01/15
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/lock
+	 Marvin Niedt Support: http://www.rwtuts.net/support
+-->
+	 
+%[if !edit]%
+<!-- Script prohibites the user from making use of Drag and Drop methods -->
+<script type="text/javascript">
+<!--
+window.oncontextmenu = function(){return false;}
+// -->
+</script>
+
+<!-- Script prohibites the user from using their right mouse to copy or download files -->
+<script type='text/javascript'>
+<!--
+document.ondragstart=new Function("return false;");
+//-->
+</script>
+%[endif]%
+
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>Lock 2 by RWtuts</b></center></div>
+		<p><div id="%id%_title"><center><i>This site is now locked</i></center></div>
+	%[endif]%
+	
+<!-- End Lock 2 Stack by RWtuts -->

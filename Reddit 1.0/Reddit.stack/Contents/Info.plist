@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.reddit</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>colddev</string>
+			<key>id</key>
+			<string>username</string>
+			<key>title</key>
+			<string>Username</string>
+			<key>toolTip</key>
+			<string>Enter the Reddit user you'd like to display posts from.</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>5</string>
+			<key>group</key>
+			<string>Amount of Posts</string>
+			<key>id</key>
+			<string>amount</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>5</string>
+					<key>value</key>
+					<string>5</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>10</string>
+					<key>value</key>
+					<string>10</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>20</string>
+					<key>value</key>
+					<string>20</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Amount</string>
+			<key>toolTip</key>
+			<string>define how many posts should be shown.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>hot</string>
+			<key>group</key>
+			<string>Sort posts by...</string>
+			<key>id</key>
+			<string>sort</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Hottest</string>
+					<key>value</key>
+					<string>hot</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Newest</string>
+					<key>value</key>
+					<string>new</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Top</string>
+					<key>value</key>
+					<string>top</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Sort</string>
+			<key>toolTip</key>
+			<string>Sort posts and links by?</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>Marvin Niedt</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Display someones Reddit timeline on your website.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Reddit</string>
+</dict>
+</plist>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.vimeogallery</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>rwtuts</string>
+			<key>group</key>
+			<string>General Settings</string>
+			<key>id</key>
+			<string>vimeo-link</string>
+			<key>title</key>
+			<string>Vimeo Channel</string>
+			<key>toolTip</key>
+			<string>Enter the name of the Vimeo profile you'd like to embed. Only enter the name, not the whole Vimeo link!</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>6</string>
+			<key>group</key>
+			<string>General Settings</string>
+			<key>id</key>
+			<string>thumbnail-amount</string>
+			<key>max</key>
+			<string>9</string>
+			<key>min</key>
+			<string>1</string>
+			<key>ticks</key>
+			<string>1</string>
+			<key>title</key>
+			<string>Videos</string>
+			<key>toolTip</key>
+			<string>Define the amount of videos that should be displayed (up to 9).</string>
+			<key>type</key>
+			<string>slider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>80</string>
+			<key>group</key>
+			<string>General Settings</string>
+			<key>id</key>
+			<string>thumbnail-size</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>80px Width</string>
+					<key>value</key>
+					<string>80</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>100px Width</string>
+					<key>value</key>
+					<string>100</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>160px Width</string>
+					<key>value</key>
+					<string>160</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>200px Width</string>
+					<key>value</key>
+					<string>200</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Size</string>
+			<key>toolTip</key>
+			<string>Define the size of the thumbnails.</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Add a beautiful responsive and lightweight wall of Vimeo videos to your site.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Vimeo Gallery</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Vimeo Gallery</string>
+		<string>Vimeo</string>
+		<string>Wall</string>
+		<string>Gallery</string>
+		<string>Video</string>
+		<string>Responsive</string>
+	</array>
+</dict>
+</plist>

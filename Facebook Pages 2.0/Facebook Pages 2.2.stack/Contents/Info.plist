@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.marvinniedt.stacks.facebookpagestwo</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.2</string>
+	<key>CFBundleVersion</key>
+	<string>2285</string>
+	<key>RWAddonAuthor</key>
+	<string>RWtuts</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon_128@2x.png</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.rwtuts.net/support</string>
+	<key>assets</key>
+	<array>
+		<dict>
+			<key>fileName</key>
+			<string>preview.png</string>
+			<key>siteAsset</key>
+			<true/>
+		</dict>
+	</array>
+	<key>SUFeedURL</key>
+	<string>http://www.rwtuts.net/appcasts/facebookpages/appcast.xml</string>
+	<key>cssFile</key>
+	<string>styles.css</string>
+	<key>copyright</key>
+	<string>Facebook Pages 2 - Copyright 2017 RWtuts</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>RWtuts</string>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>id</key>
+			<string>pagename</string>
+			<key>title</key>
+			<string>Page Name</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>340</string>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>id</key>
+			<string>widget_width</string>
+			<key>title</key>
+			<string>Width</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>500</string>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>id</key>
+			<string>widget_height</string>
+			<key>title</key>
+			<string>Height</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>left</string>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>id</key>
+			<string>fbp2_alignment</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Left</string>
+					<key>value</key>
+					<string>left</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Center</string>
+					<key>value</key>
+					<string>middle</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Right</string>
+					<key>value</key>
+					<string>right</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Alignment</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>type</key>
+			<string>divider</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>id</key>
+			<string>smallheader</string>
+			<key>title</key>
+			<string>Enable Small Header?</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>id</key>
+			<string>hide_cover</string>
+			<key>title</key>
+			<string>Hide Cover/Header Image?</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<false/>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>id</key>
+			<string>cta</string>
+			<key>title</key>
+			<string>Hide Call to Action button?</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<true/>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>id</key>
+			<string>facepile</string>
+			<key>title</key>
+			<string>Show Facepiles?</string>
+			<key>type</key>
+			<string>checkbox</string>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>type</key>
+			<string>divider</string>
+		</dict>
+		<dict>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>title</key>
+			<string>Select which tabs you'd like to display inside the widget. You can choose to show just a single one, but also two of them or all three ones by selecting the combination you'd like to see.</string>
+			<key>type</key>
+			<string>info</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>timeline</string>
+			<key>group</key>
+			<string>Facebook Pages 2 Customisation</string>
+			<key>id</key>
+			<string>choose_tab</string>
+			<key>items</key>
+			<array>
+				<dict>
+					<key>title</key>
+					<string>Timeline</string>
+					<key>value</key>
+					<string>timeline</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Messages</string>
+					<key>value</key>
+					<string>messages</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Events</string>
+					<key>value</key>
+					<string>events</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Timeline + Messages</string>
+					<key>value</key>
+					<string>timeline,messages</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Timeline + Events</string>
+					<key>value</key>
+					<string>timeline,events</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Messages + Events</string>
+					<key>value</key>
+					<string>messages,events</string>
+				</dict>
+				<dict>
+					<key>title</key>
+					<string>Timeline + Messages + Events</string>
+					<key>value</key>
+					<string>timeline,messages,events</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Tabs</string>
+			<key>type</key>
+			<string>select</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>RWtuts</string>
+	<key>helpURL</key>
+	<string>http://www.rwtuts.net/stacks/facebook-pages</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>javascriptFile</key>
+	<string>script.js</string>
+	<key>javascriptLib</key>
+	<string>jQuery</string>	
+	<key>subtitle</key>
+	<string>Embed a Facebook site on your website and customise it.</string>
+	<key>templateFile</key>
+	<string>template.html</string>
+	<key>title</key>
+	<string>Facebook Pages 2</string>
+	<key>author</key>
+	<string>RWtuts</string>
+	<key>tags</key>
+	<array>
+		<string>Facebook</string>
+		<string>Page</string>
+		<string>Site</string>
+		<string>Timeline</string>
+		<string>Info</string>
+		<string>Embed</string>
+		<string>Widget</string>
+		<string>Customize</string>
+		<string>RWtuts</string>
+		<string>Retina</string>
+		<string>Responsive</string>
+	</array>
+</dict>
+</plist>

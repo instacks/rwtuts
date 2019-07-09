@@ -1,0 +1,55 @@
+<!-- DetailsPro Stack version 2.1
+	 Last changed: 26/08/17
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://www.rwtuts.net/stacks/detailspro
+	 Marvin Niedt Support: http://www.rwtuts.net/support
+-->
+
+%[if !edit]%<div id="%id%_javascript">
+<script language="javascript">
+var ie4 = false; if(document.all) { ie4 = true; }
+function getObject(id) {
+    if (ie4) {
+        return document.all[id];
+    } else {
+        return document.getElementById(id);
+    }
+}
+
+function toggle(link, divId) {
+    var lText = link.innerHTML; var d = getObject(divId);
+    if (lText == '+') {
+        link.innerHTML = '−'; d.style.display = 'block';
+    } else { link.innerHTML = '+'; d.style.display = 'none';
+    }
+}
+</script>
+</div>%[endif]%
+
+
+%[if !edit]%<div style="padding: 0px; background: %id=bodycolor%;  width:auto;">%[endif]%
+<table cellspacing="0" cellpadding="2" width="auto" style="background: %id=titlecolor%; color: %id=titlefontcolor%; ">
+
+
+	%[if edit]%
+		<div id="%id%_header"><center><b>DetailsPro 2 by RWtuts</b></center></div>
+		<p><div id="%id%_title"><center><i>Drop Text Stacks onto both Stack placeholders. First one is for the Boxes title, second one for the main content. You can also customise the boxes with the Stacks inspector interface.</i></center></div></p>
+	%[endif]%
+
+<tr>
+<td>%slice%</td>
+
+
+%[if !edit]%<div id="%id%_javascript">	
+<td align="right">	[<a title="show/hide" id="" href="javascript: void(0);" onClick="toggle(this, 'box1');" style="text-decoration: none; color: %id=titlefontcolor%; ">-</a>]
+</div>%[endif]%
+
+</td>
+</tr>
+</table>
+	
+<div id="box1" style="padding: 3px; color: %id=bodyfontcolor%; ">%slice%</div>
+</div>
+</div>
+
+<!-- End DetailsPro 2 Stack by RWtuts -->

@@ -1,0 +1,125 @@
+<!-- Pricing Tables Stack version 1.0 - compatible with Stacks 3.x, RapidWeaver 6.x and 7.x and major browsers.
+	 Last changed: 15/04/17
+	 Stack Author: RWtuts
+	 Stack Website and Info: http://rwtuts.net/stacks/pricing-tables
+	 RWtuts Support: http://www.rwtuts.net/support
+-->
+
+%[if !edit]%
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.columns42 {
+    float: left;
+    background-color: %id=tablebackgroundcolor%;
+    width: %id=tablewidth%%;
+    padding: %id=padtables%px;
+    font-family: '%id=fontface%';
+}
+
+.price42 {
+    list-style-type: none;
+    border: %id=borderwidth%px solid %id=bordercolor%;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.price42:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price42 .header {
+    color: %id=headerfontcolor%;
+    font-size: %id=headerfontsize%px;
+}
+
+.price42 li {
+    border-bottom: %id=borderwidth%px solid %id=bordercolor%;
+    padding: 20px;
+    text-align: center;
+}
+
+.price42 .grey {
+    background-color: %id=pricebackgroundcolor%;
+    font-size: %id=pricefontsize%px;
+}
+
+.button42 {
+    background-color: %id=buttonbackgroundcolor%;
+    border: none;
+    color: %id=buttonfontcolor%;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: %id=buttonfontsize%;
+}
+
+#%id% a.button42:link {color: %id=buttonfontcolor%};
+#%id% a.button42:visited {color: %id=buttonfontcolor%};
+#%id% a.button42:hover {color: %id=buttonfontcolor%};
+#%id% a.button42:active {color: %id=buttonfontcolor%};
+
+@media only screen and (max-width: 600px) {
+    .columns42 {
+        width: 100%;
+    }
+}
+
+</style>
+
+<div class="columns42">
+  <ul class="price42">
+    <li class="header" style="background-color:%id=headercolor1%">%id=firstplanname%</li>
+    <li class="grey">%id=firstprice%</li>
+    <li>%id=firstplanfirstdescr%</li>
+    <li>%id=firstplanseconddescr%</li>
+    <li>%id=firstplanthirddescr%</li>
+    <li>%id=firstplanfourthdescr%</li>
+    <li>%id=firstplanfifthdescr%</li>
+    <li>%id=firstplansixthdescr%</li>
+    <li class="grey"><a class="button42" href="%id=firstplanlink%">%id=firstplanbuttontext%</a></li>
+  </ul>
+</div>
+
+<div class="columns42">
+  <ul class="price42">
+    <li class="header" style="background-color:%id=headercolor2%">%id=secondplanname%</li>
+    <li class="grey">%id=secondprice%</li>
+    <li>%id=secondplanfirstdescr%</li>
+    <li>%id=secondplanseconddescr%</li>
+    <li>%id=secondplanthirddescr%</li>
+    <li>%id=secondplanfourthdescr%</li>
+    <li>%id=secondplanfifthdescr%</li>
+    <li>%id=secondplansixthdescr%</li>
+    <li class="grey"><a class="button42" href="%id=secondplanlink%">%id=secondplanbuttontext%</a></li>
+  </ul>
+</div>
+
+<div class="columns42">
+  <ul class="price42">
+    <li class="header" style="background-color:%id=headercolor3%">%id=thirdplanname%</li>
+    <li class="grey">%id=thirdprice%</li>
+    <li>%id=thirdplanfirstdescr%</li>
+    <li>%id=thirdplanseconddescr%</li>
+    <li>%id=thirdplanthirddescr%</li>
+    <li>%id=thirdplanfourthdescr%</li>
+    <li>%id=thirdplanfifthdescr%</li>
+    <li>%id=thirdplansixthdescr%</li>
+    <li class="grey"><a class="button42" href="%id=thirdplanlink%">%id=thirdplanbuttontext%</a></li>
+  </ul>
+</div>
+
+%[endif]%
+
+%[if edit]%<div id="%id%_wrapper">%[endif]%
+
+
+	%[if edit]%
+		<center><img src="%siteAssetPath%/preview.png" width="64" height="64" alt="Pricing Tables Icon"/><p><b>Pricing Tables by RWtuts</b></p></center>
+	%[endif]%
+	
+<!-- End Pricing Tables Stack by RWtuts -->
